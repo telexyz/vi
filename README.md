@@ -13,7 +13,7 @@
     - https://huggingface.co/datasets
     - https://www.kaggle.com/datasets
 
-  - [x] cc-100 [vi])https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, không phân chia theo văn bản)
+  - [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, không phân chia theo văn bản)
   - [x] OSCAR [vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB)
   - [x] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB)
   - [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G)
