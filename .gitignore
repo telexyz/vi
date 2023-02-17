@@ -1,0 +1,5 @@
+.vscode/
+data/
+*.jsonl
+*.txt
+*.utf8
