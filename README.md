@@ -1,5 +1,5 @@
 # Phân tích tiếng Việt
-- Dữ liệu https://github.com/telexyz/data
+- Dữ liệu lấy mẫu https://github.com/telexyz/data
 - Kết quả phân tích https://github.com/telexyz/results
 
 # Đề xuất cách tiền xử lý
