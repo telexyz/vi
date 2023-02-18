@@ -7,7 +7,7 @@
 
 # Làm tốt dữ liệu
   - [ ] Loại bỏ dữ liệu kém (lọc theo tỉ lệ âm tiết, chất lượng âm tiết)
-    - [ ] dedup Zig impl
+    - [ ] C++ / CUDA dedup
       - [ ] minhash
       - [ ] SuffixArray Substring
     - [ ] Tìm hiểu [pile2 dedup](https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup)
