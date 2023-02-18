@@ -5,6 +5,18 @@
 # Đề xuất cách tiền xử lý
 ![](docs/files/vi-pre-processing.png)
 
+# Làm tốt dữ liệu
+  - [ ] Loại bỏ dữ liệu kém (lọc theo tỉ lệ âm tiết, chất lượng âm tiết)
+    - [ ] dedup Zig impl
+      - [ ] minhash
+      - [ ] SuffixArray Substring
+    - [ ] Tìm hiểu [pile2 dedup](https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup)
+
+  - [ ] Cân bằng giữa các loại dữ liệu
+    - data selection https://github.com/p-lambda/dsir
+    - [unimax](./docs/unimax.md)
+
+
 # Xây dựng tập dữ liệu đủ lớn
 
 - [ ] Sưu tầm "dữ liệu" đủ lớn, đủ đa dạng (ngoài tin tức, các dạng khác rất ít)
@@ -47,10 +59,4 @@
     - Mạng xã hội
     - Public chat room
     - ...
-
-- [ ] Làm tốt dữ liệu
-  - loại bỏ dữ liệu kém (lọc theo tỉ lệ âm tiết, chất lượng âm tiết)
-  - dedup (minhash, simhash)
-  - data selection https://github.com/p-lambda/dsir
-  - Cân bằng giữa các loại dữ liệu
 
