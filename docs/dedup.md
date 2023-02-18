@@ -1,3 +1,5 @@
+- https://github.com/ChenghaoMou/text-dedup
+
 # Deduplicating Training Data Makes Language Models Better
 - https://arxiv.org/pdf/2107.06499.pdf
 - https://github.com/google-research/deduplicate-text-datasets
