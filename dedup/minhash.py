@@ -6,19 +6,24 @@ import numpy as np
 import datasets
 
 from datasets import load_dataset, load_from_disk
-from __future__ import annotations
 from collections import defaultdict
 from typing import Any, Dict, List, Set, Tuple
 
 from scipy.integrate import quad as integrate
 from tqdm import tqdm
 
-from text_dedup import logger
-from text_dedup.utils import UnionFind, ngrams
-from text_dedup.utils.add_args import add_io_args
-from text_dedup.utils.add_args import add_meta_args
-from text_dedup.utils.add_args import add_minhash_args
-from text_dedup.utils.timer import Timer
+from union_find import UnionFind
+from tokenization import ngrams
+from timer import Timer
+from add_args import add_io_args, add_meta_args, add_minhash_args
+
+# logger init
+import logging
+from rich.logging import RichHandler
+logger = logging.getLogger("text_dedup")
+logger.setLevel(logging.INFO)
+logger.addHandler(RichHandler(rich_tracebacks=True))
+logger.propagate = False
 
 SEED = 42
 RNG = np.random.RandomState(SEED)

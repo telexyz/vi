@@ -4,5 +4,6 @@ data/
 *.txt
 *.utf8
 _git
-text-dedup/
+text_dedup/
 __pycache__
+deduplicate-text-datasets/

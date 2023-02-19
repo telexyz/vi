@@ -26,7 +26,12 @@ Chạy từ trái qua phải, điền giá trị hàng A, và B vào sketch (A u
 
 ![](files/minhash-06.jpg)
 
+# Cách tính khác
 https://youtu.be/aTwRpqUnQX8?t=1707
+
+![](files/minhash-07.jpg)
+
+![](files/minhash-08.jpg)
 
 - - -
 
