@@ -3,3 +3,6 @@ data/
 *.jsonl
 *.txt
 *.utf8
+_git
+text-dedup/
+__pycache__
