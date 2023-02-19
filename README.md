@@ -24,9 +24,10 @@
 
 # Xây dựng tập dữ liệu đủ lớn
 
-- [ ] Sưu tầm "dữ liệu" đủ lớn, đủ đa dạng (ngoài tin tức, các dạng khác rất ít)
+- [x] Sưu tầm "dữ liệu" đủ lớn, đủ đa dạng (ngoài tin tức, các dạng khác rất ít)
   - [x] Nguồn
-    - Lọc từ https://github.com/CarperAI/pilev2?
+    - Lọc từ https://github.com/CarperAI/pilev2 (chuẩn bị public)
+    - Lọc từ https://github.com/EleutherAI/polyglot#polyglot-east-asian-wip (chuẩn bị public)
     - https://huggingface.co/datasets
     - https://www.kaggle.com/datasets
 
@@ -35,11 +36,10 @@
   - [x] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB)
   - [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G)
 
-  - [ ] Tin tức (quá dư)
-    - [ ] Cần phân loại theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
+  - [x] Tin tức
+    - [x] Cần phân loại theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
     - https://huggingface.co/datasets/bigscience-data/roots_vi_binhvq_news_corpus (20GB)
-    - https://huggingface.co/datasets/truongpdd/vietnews-datase (34GB)
-    - https://www.kaggle.com/datasets/nekonekonyan/vietnamesenewspapers (70GB gồm cả ảnh)
+    - https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB)
 
   - [x] Wikipedia (1GB nén)
     - https://dumps.wikimedia.org/viwiki (1GB nén, download trực tiếp)
