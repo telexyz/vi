@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-# @Date    : 2022-12-26 15:59:42
-# @Author  : Chenghao Mou (mouchenghao@gmail.com)
+# Source https://github.com/ChenghaoMou/text-dedup/blob/main/text_dedup/utils/
 
 import logging
 from rich.logging import RichHandler
