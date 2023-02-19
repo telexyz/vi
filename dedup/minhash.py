@@ -100,15 +100,13 @@ def optimal_param(
 
     def false_positive_probability(threshold: float, b: int, r: int):
         """Source: `datasketch.lsh`"""
-        def proba(s):
-            return 1 - (1 - s ** float(r)) ** float(b)
+        def proba(s): return 1 - (1 - s ** float(r)) ** float(b)
         a, _ = integrate(proba, 0.0, threshold)
         return a
 
     def false_negative_probability(threshold: float, b: int, r: int):
         """Source: `datasketch.lsh`"""
-        def proba(s):
-            return 1 - (1 - (1 - s ** float(r)) ** float(b))
+        def proba(s): return 1 - (1 - (1 - s ** float(r)) ** float(b))
         a, _ = integrate(proba, threshold, 1.0)
         return a
 
