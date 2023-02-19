@@ -12,9 +12,7 @@ from typing import Any, Dict, List, Set, Tuple
 from scipy.integrate import quad as integrate
 from tqdm import tqdm
 
-from union_find import UnionFind
-from tokenization import ngrams
-from timer import Timer
+from common import UnionFind, ngrams, Timer
 from add_args import add_io_args, add_meta_args, add_minhash_args
 
 # logger init
@@ -24,6 +22,7 @@ logger = logging.getLogger("text_dedup")
 logger.setLevel(logging.INFO)
 logger.addHandler(RichHandler(rich_tracebacks=True))
 logger.propagate = False
+
 
 SEED = 42
 RNG = np.random.RandomState(SEED)
@@ -36,10 +35,8 @@ datasets.logging.set_verbosity_error()
 def sha1_hash(data: bytes, d: int = 32) -> int:
     """
     Generate a d-bit hash value from the given data.
-    >>> sha1_hash(b"hello world", 32)
-    896314922
-    >>> sha1_hash(b"hello world", 64)
-    13028719972609469994
+    >>> sha1_hash(b"hello world", 32) => 896314922
+    >>> sha1_hash(b"hello world", 64) => 13028719972609469994
     """
     return int.from_bytes(hashlib.sha1(data).digest()[: d // 8], byteorder="little")
 
