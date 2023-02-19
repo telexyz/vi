@@ -12,16 +12,8 @@ from typing import Any, Dict, List, Set, Tuple
 from scipy.integrate import quad as integrate
 from tqdm import tqdm
 
-from common import UnionFind, ngrams, Timer
+from common import UnionFind, ngrams, Timer, logger
 from add_args import add_io_args, add_meta_args, add_minhash_args
-
-# logger init
-import logging
-from rich.logging import RichHandler
-logger = logging.getLogger("text_dedup")
-logger.setLevel(logging.INFO)
-logger.addHandler(RichHandler(rich_tracebacks=True))
-logger.propagate = False
 
 
 SEED = 42

@@ -3,6 +3,17 @@
 # @Date    : 2022-12-26 15:59:42
 # @Author  : Chenghao Mou (mouchenghao@gmail.com)
 
+import logging
+from rich.logging import RichHandler
+logger = logging.getLogger("text_dedup")
+logger.setLevel(logging.INFO)
+logger.addHandler(RichHandler(rich_tracebacks=True))
+logger.propagate = False
+
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
 class UnionFind:
     """
     A data structure for maintaining disjoint sets. This helps build connected components for given duplicate pairs.
