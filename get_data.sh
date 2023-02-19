@@ -12,5 +12,8 @@
 
 # https://huggingface.co/datasets/allenai/c4/resolve/main/multilingual/c4-vi.tfrecord-00001-of-??????.json.gz
 
-wget https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/resolve/main/compressed/vi_meta/vi_meta_part_46.jsonl.gz
-telexify vi_meta_part_46.txt vi_meta_part_46.utf8 utf8
+wget https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/resolve/main/compressed/vi_meta/vi_meta_part_45.jsonl.gz
+tar vxfz vi_meta_part_45.jsonl.gz
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_45.jsonl > vi_meta_part_45.txt
+telexify vi_meta_part_45.txt vi_meta_part_45.utf8 utf8
+# Note: telexify được biên dịch từ https://github.com/telexyz/engine trên Ubuntu 64-bit
