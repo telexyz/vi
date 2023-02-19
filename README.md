@@ -14,8 +14,10 @@
     - [ ] Tìm hiểu [pile2 dedup](https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup)
     - [ ] Tìm hiểu [CarperAI data filter](https://github.com/CarperAI/squeakily)
     - [ ] Tìm hiểu https://github.com/bigscience-workshop/data-preparation
+    - [ ] Tìm hiểu https://github.com/bigscience-workshop/data_tooling
 
   - [ ] Cân bằng giữa các loại dữ liệu
+    - [ ] Xem https://stanford-cs324.github.io/winter2022/lectures/data
     - [ ] [dsir](https://github.com/p-lambda/dsir)
     - [ ] [unimax](./docs/unimax.md)
 
