@@ -11,8 +11,9 @@
     - [x] dedup
       - [x] minhash
       - [x] SuffixArray Substring
-    - [ ] Tìm hiểu [pile2 dedup](https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup)
-    - [ ] Tìm hiểu [CarperAI data filter](https://github.com/CarperAI/squeakily)
+      - [ ] Áp dụng minhash, suffix-array vào âm tiết TV (sau khi đã dịnh danh = u16)
+    - [ ] Tìm hiểu https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
+    - [ ] Tìm hiểu https://github.com/CarperAI/squeakily
     - [ ] Tìm hiểu https://github.com/bigscience-workshop/data-preparation
     - [ ] Tìm hiểu https://github.com/bigscience-workshop/data_tooling
 
@@ -21,6 +22,8 @@
     - [ ] [dsir](https://github.com/p-lambda/dsir)
     - [ ] [unimax](./docs/unimax.md)
 
+  - [ ] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
+    - [ ] Cramming paper
 
 # Xây dựng tập dữ liệu đủ lớn
 
