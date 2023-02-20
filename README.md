@@ -1,3 +1,5 @@
+- [ ] Tìm hiểu các kịch bản tiền xử lý dữ liệu tại https://github.com/EleutherAI/dps/tree/master/dps/spark/jobs
+
 # Phân tích tiếng Việt
 - Dữ liệu lấy mẫu https://github.com/telexyz/data
 - Kết quả phân tích https://github.com/telexyz/results
@@ -25,6 +27,9 @@
   - [ ] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
     - [x] Cramming paper
     - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
+
+  - [ ] Dịch từ ngôn ngữ khác sang
+    - https://www.deepl.com/translator
 
 # Xây dựng tập dữ liệu đủ lớn
 
