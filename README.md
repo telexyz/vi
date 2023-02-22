@@ -1,4 +1,7 @@
-Các kịch bản tiền xử lý dữ liệu
+## Cách lấy mẫu dữ liệu (raw) tương đồng với một tập dữ liệu cho trước (target)
+- [ ] https://github.com/p-lambda/dsir
+
+## Các kịch bản tiền xử lý dữ liệu
 - [ ] Tìm hiểu https://github.com/JonasGeiping/cramming/tree/main/cramming/data
 - [ ] Tìm hiểu https://github.com/EleutherAI/dps/tree/master/dps/spark/jobs
 
@@ -35,9 +38,6 @@ Các kịch bản tiền xử lý dữ liệu
   - [ ] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
     - [x] Cramming paper
     - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
-
-  - [ ] Dịch từ ngôn ngữ khác sang
-    - https://www.deepl.com/translator
 
 # Xây dựng tập dữ liệu đủ lớn
 

@@ -1,0 +1,6 @@
+datasets
+pandas
+tqdm
+numpy
+joblib
+nltk
