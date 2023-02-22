@@ -8,6 +8,10 @@ Các kịch bản tiền xử lý dữ liệu
 - [ ] Tìm hiểu https://github.com/bigscience-workshop/data-preparation
 - [ ] Tìm hiểu https://github.com/bigscience-workshop/data_tooling
 
+- [] Tìm hiểu https://github.com/bigscience-workshop/data-preparation
+
+![](https://raw.githubusercontent.com/bigscience-workshop/data-preparation/main/roots_pipeline.png)
+
 # Phân tích tiếng Việt
 - Dữ liệu lấy mẫu https://github.com/telexyz/data
 - Kết quả phân tích https://github.com/telexyz/results
