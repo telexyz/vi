@@ -1,4 +1,12 @@
-- [ ] Tìm hiểu các kịch bản tiền xử lý dữ liệu tại https://github.com/EleutherAI/dps/tree/master/dps/spark/jobs
+Các kịch bản tiền xử lý dữ liệu
+- [ ] Tìm hiểu https://github.com/JonasGeiping/cramming/tree/main/cramming/data
+- [ ] Tìm hiểu https://github.com/EleutherAI/dps/tree/master/dps/spark/jobs
+
+- [ ] Tìm hiểu https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
+- [ ] Tìm hiểu https://github.com/CarperAI/squeakily
+
+- [ ] Tìm hiểu https://github.com/bigscience-workshop/data-preparation
+- [ ] Tìm hiểu https://github.com/bigscience-workshop/data_tooling
 
 # Phân tích tiếng Việt
 - Dữ liệu lấy mẫu https://github.com/telexyz/data
@@ -14,10 +22,6 @@
       - [x] minhash
       - [x] SuffixArray Substring
       - [ ] Áp dụng minhash, suffix-array vào âm tiết TV (sau khi đã đánh số = u16)
-    - [ ] Tìm hiểu https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
-    - [ ] Tìm hiểu https://github.com/CarperAI/squeakily
-    - [ ] Tìm hiểu https://github.com/bigscience-workshop/data-preparation
-    - [ ] Tìm hiểu https://github.com/bigscience-workshop/data_tooling
 
   - [ ] Cân bằng giữa các loại dữ liệu
     - [ ] Xem https://stanford-cs324.github.io/winter2022/lectures/data

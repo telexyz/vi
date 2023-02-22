@@ -45,4 +45,9 @@ Sau đó họ cải tiến bằng cách sắp xếp tokenized seqs theo 1 thứ 
 
 ![](files/cramming-01.jpg)
 
-=> Cần kiểm tra code để xem cách họ thược hiện củ thể từng tricks https://github.com/JonasGeiping/cramming
+=> Cần kiểm tra code để xem cách họ thược hiện củ thể từng tricks https://github.com/JonasGeiping/cramming/tree/main/cramming/data
+
+- - -
+
+https://github.com/JonasGeiping/cramming/blob/main/cramming/data/curriculum_sorting.py
+- sắp xếp dataset theo unigram dist
