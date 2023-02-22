@@ -34,3 +34,15 @@ Increasing the vocabulary size would __compress data further__ (albeit vanishing
 
 => _Vấn đề là làm sao để compress đc nhiều data hơn!_
 
+- - -
+
+Để huấn luyện tknz, với TA, họ chuyển text sang dạng viết thường và loại bỏ các ký tự không phải ASCII. Với họ vocab_size = 2^15 là tối ưu. Sau đó họ đóng gói dữ liệu đã được tknz một cách ngẫu nhiên có độ dài 128 (??) và phân biệt với nhau bởi token `<sep>` Giới hạn độ dài quyết định bở downstream tasks. Họ chọn seq len ngắn bởi nó không ảnh hưởng tới perf của downstream tasks và để tiết kiệm tính toán cho cơ chế attn. micro-batch sizes họ chọn là 64 hoặc 96 và bước huấn luyện cuối họ dồn vào 1 batch size lớn (vài nghìn).
+![](files/cramming-00.jpg)
+
+Việc sử dụng bản thân tknz để loại bỏ dữ liệu "xấu" có vẻ hấp dẫn. Vì tknz quyết định tỉ lệ nén của câu đầu vào, nếu câu đầu vào tận dụng được tknz thì đó là câu "tốt" :)
+
+Sau đó họ cải tiến bằng cách sắp xếp tokenized seqs theo 1 thứ tự ưu tiên nhất định (huấn luyện tokens tốt trước). Và ở lần huấn luyện cuối họ tăng batch size lên 4032 hoặc 4096 để làm giảm sự phân bố không đều của dữ liệu (??)
+
+![](files/cramming-01.jpg)
+
+=> Cần kiểm tra code để xem cách họ thược hiện củ thể từng tricks https://github.com/JonasGeiping/cramming
