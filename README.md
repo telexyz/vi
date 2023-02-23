@@ -1,3 +1,8 @@
+# Công cụ mạnh để xử lý ngữ liệu lớn
+- https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
+- https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
+- https://github.com/facebookresearch/fastText word embedding & text classifier
+
 # Kịch bản tiền xử lý dữ liệu
 > Cramming paper có nhiều ý tưởng tốt cho limited computing power. `bigscience-workshop` có pipeline tiền xử lý dữ liệu chỉnh chu nhất. 
 
