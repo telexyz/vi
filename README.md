@@ -48,9 +48,10 @@
   - [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G)
 
   - [x] Tin tức
-    - [x] Cần phân loại theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
-    - https://huggingface.co/datasets/bigscience-data/roots_vi_binhvq_news_corpus (20GB)
-    - https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB)
+    - [x] Cần phân rã theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
+    - https://huggingface.co/datasets/bigscience-data/roots_vi_binhvq_news_corpus (20GB đã lọc)
+    - https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB lọc hay chưa?)
+    - Có thể dùng dsir để lọc theo định hướng
 
   - [x] Wikipedia (1GB nén)
     - https://dumps.wikimedia.org/viwiki (1GB nén, download trực tiếp)
