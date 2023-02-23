@@ -1,18 +1,9 @@
-## Cách lấy mẫu dữ liệu (raw) tương đồng với một tập dữ liệu cho trước (target)
-- [ ] https://github.com/p-lambda/dsir
+# Kịch bản tiền xử lý dữ liệu
+> Cramming paper có nhiều ý tưởng tốt cho limited computing power. `bigscience-workshop` có pipeline tiền xử lý dữ liệu chỉnh chu nhất. 
 
-## Các kịch bản tiền xử lý dữ liệu
 - [ ] Tìm hiểu https://github.com/JonasGeiping/cramming/tree/main/cramming/data
-- [ ] Tìm hiểu https://github.com/EleutherAI/dps/tree/master/dps/spark/jobs
-
-- [ ] Tìm hiểu https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
-- [ ] Tìm hiểu https://github.com/CarperAI/squeakily
-
 - [ ] Tìm hiểu https://github.com/bigscience-workshop/data-preparation
 - [ ] Tìm hiểu https://github.com/bigscience-workshop/data_tooling
-
-- [] Tìm hiểu https://github.com/bigscience-workshop/data-preparation
-
 ![](https://raw.githubusercontent.com/bigscience-workshop/data-preparation/main/roots_pipeline.png)
 
 # Phân tích tiếng Việt
@@ -29,10 +20,13 @@
       - [x] minhash
       - [x] SuffixArray Substring
       - [ ] Áp dụng minhash, suffix-array vào âm tiết TV (sau khi đã đánh số = u16)
+    - Tham khảo
+      - https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
+      - https://github.com/CarperAI/squeakily
 
   - [ ] Cân bằng giữa các loại dữ liệu
     - [ ] Xem https://stanford-cs324.github.io/winter2022/lectures/data
-    - [ ] [dsir](https://github.com/p-lambda/dsir)
+    - [x] [dsir](https://github.com/p-lambda/dsir)
     - [ ] [unimax](./docs/unimax.md)
 
   - [ ] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
@@ -74,7 +68,7 @@
     - ...
 
   - [ ] Văn bản chính quy
-    - ...
+    - Đang crawl ước tính từ khoảng 20G
 
   - [ ] Khác?
     - Diễn đàn
