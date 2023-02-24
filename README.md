@@ -52,8 +52,7 @@ TODOs
 - Dữ liệu lấy mẫu https://github.com/telexyz/data
 - Kết quả phân tích https://github.com/telexyz/results
 
-# Xây dựng tập dữ liệu đủ lớn
-
+# vi500: 500GB ngữ liệu tiếng Việt
 - [x] Sưu tầm "dữ liệu" đủ lớn, đủ đa dạng (ngoài tin tức, các dạng khác rất ít)
   - [x] Nguồn
     - Lọc từ https://github.com/CarperAI/pilev2 (chuẩn bị public)
@@ -67,8 +66,9 @@ TODOs
   - [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G)
 
   - [x] Tin tức
-    - [x] Cần phân rã theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
+    - [ ] Cần phân rã và cân đối theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
     - https://huggingface.co/datasets/bigscience-data/roots_vi_binhvq_news_corpus (20GB đã lọc)
+      - Applied: dedup_document, dedup_template_soft, filter_remove_empty_docs, filter_small_docs_bytes_300
     - https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB lọc hay chưa?)
     - Có thể dùng dsir để lọc theo định hướng
 
