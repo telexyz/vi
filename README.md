@@ -1,42 +1,56 @@
+# Mấu chốt
+
+- [ ] Làm thế nào để có metrics đánh giá "độ tốt" của văn bản?
+  - Để có thể chọn văn bản từ tốt tới xấu cho đến một độ lớn nhất định thì dừng lại
+  - Để khi huấn luyện chọn ra một tỉ lệ nhất định các văn bản tốt huấn luyện trước?
+
+- [ ] Làm thế nào để lọc ra văn bản vừa "tốt" vừa "đa dạng" từ nhiều nguồn?
+  - Cân bằng về số lượng tokens giữa các categories?
+
+- - -
+
+TODOs
+
+- [ ] Chọn dữ liệu tương đồng với 1 tập dữ liệu đã có
+  - [ ] Dùng [dsir](https://github.com/p-lambda/dsir) để lọc news có liên quan tới pháp luật
+
+- [ ] Loại bỏ dữ liệu kém
+  - [ ] lọc theo tỉ lệ âm tiết, chất lượng âm tiết ...
+    - Điều chỉnh code của `engine`
+  - [x] Các thuật toán dedup
+    - [x] minhash
+    - [x] SuffixArray Substring
+    - [ ] Áp dụng minhash, suffix-array vào âm tiết TV (sau khi đã đánh số = u16)
+  - Tham khảo
+    - https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
+    - https://github.com/CarperAI/squeakily
+
+- [ ] Cân bằng giữa các loại dữ liệu
+  - [ ] Xem https://stanford-cs324.github.io/winter2022/lectures/data
+  - [ ] Xem [unimax](./docs/unimax.md)
+
+- [ ] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
+  - [ ] Cramming paper
+  - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
+
+- - -
+
+# Kịch bản tiền xử lý dữ liệu
+> Cramming paper có nhiều ý tưởng tốt cho limited computing power. `bigscience-workshop` có pipeline tiền xử lý dữ liệu chỉnh chu nhất.
+
+- https://github.com/JonasGeiping/cramming/tree/main/cramming/data
+- https://github.com/bigscience-workshop/data-preparation
+- https://github.com/bigscience-workshop/data_tooling
+![](https://raw.githubusercontent.com/bigscience-workshop/data-preparation/main/roots_pipeline.png)
+
 # Công cụ mạnh để xử lý ngữ liệu lớn
 - https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
 - https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
 - https://github.com/facebookresearch/fastText word embedding & text classifier
 
-# Kịch bản tiền xử lý dữ liệu
-> Cramming paper có nhiều ý tưởng tốt cho limited computing power. `bigscience-workshop` có pipeline tiền xử lý dữ liệu chỉnh chu nhất. 
-
-- [ ] Tìm hiểu https://github.com/JonasGeiping/cramming/tree/main/cramming/data
-- [ ] Tìm hiểu https://github.com/bigscience-workshop/data-preparation
-- [ ] Tìm hiểu https://github.com/bigscience-workshop/data_tooling
-![](https://raw.githubusercontent.com/bigscience-workshop/data-preparation/main/roots_pipeline.png)
-
 # Phân tích tiếng Việt
 - Dữ liệu lấy mẫu https://github.com/telexyz/data
 - Kết quả phân tích https://github.com/telexyz/results
-
-# Đề xuất cách tiền xử lý
-![](docs/files/vi-pre-processing.png)
-
-# Làm tốt dữ liệu
-  - [ ] Loại bỏ dữ liệu kém
-    - [ ] lọc theo tỉ lệ âm tiết, chất lượng âm tiết ...
-    - [x] dedup
-      - [x] minhash
-      - [x] SuffixArray Substring
-      - [ ] Áp dụng minhash, suffix-array vào âm tiết TV (sau khi đã đánh số = u16)
-    - Tham khảo
-      - https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
-      - https://github.com/CarperAI/squeakily
-
-  - [ ] Cân bằng giữa các loại dữ liệu
-    - [ ] Xem https://stanford-cs324.github.io/winter2022/lectures/data
-    - [x] [dsir](https://github.com/p-lambda/dsir)
-    - [ ] [unimax](./docs/unimax.md)
-
-  - [ ] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
-    - [x] Cramming paper
-    - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
 
 # Xây dựng tập dữ liệu đủ lớn
 
@@ -81,3 +95,7 @@
     - Mạng xã hội
     - Public chat room
     - ...
+
+- - -
+
+![](docs/files/vi-pre-processing.png)
