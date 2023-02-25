@@ -60,14 +60,14 @@ TODOs
     - https://huggingface.co/datasets
     - https://www.kaggle.com/datasets
 
-  - [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, không update-to-date, không phân chia theo văn bản)
-  - [x] OSCAR [vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc)
-  - [x] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB, lọc từ cc?)
-  - [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G, nguồn tổng ?)
+  - [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, xxxx-2020, mỗi doc là 1 line?)
+  - [x] OSCAR [vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, nguồn?)
+  - [x] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB, nguồn?)
+  - [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G, nguồn?)
 
   - [x] Tin tức
     - [ ] Cần phân rã và cân đối theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
-    - https://huggingface.co/datasets/bigscience-data/roots_vi_binhvq_news_corpus (20GB đã lọc)
+    - https://huggingface.co/datasets/bigscience-data/roots_vi_binhvq_news_corpus (20GB đã lọc, bị cắt nhỏ bởi preprocessing => not good)
       - Applied: dedup_document, dedup_template_soft, filter_remove_empty_docs, filter_small_docs_bytes_300
     - https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB lọc hay chưa?)
     - Có thể dùng dsir để lọc theo định hướng
