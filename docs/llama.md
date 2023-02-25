@@ -27,8 +27,6 @@ __English CommonCrawl [67%]__. We preprocess five CommonCrawl dumps, ranging fro
 __C4 [15%]__. During exploratory experiments, we observed that using diverse pre-processed CommonCrawl datasets improves performance. We thus included the publicly available C4 dataset in our data. 
 - The main difference with CCNet is the quality filtering, which mostly relies on __heuristics such as presence of punctuation marks or the number of words and sentences in a webpage__.
 
-- - -
-
 ## Tokenizer
 We tokenize the data with the bytepair encoding (BPE) algorithm, using the implementation from SentencePiece.
 Notably, we __split all numbers into individual digits__, and fallback to bytes to decompose unknown UTF-8 characters.
@@ -37,3 +35,7 @@ Notably, we __split all numbers into individual digits__, and fallback to bytes 
 Overall, our entire training dataset contains roughly __1.4T tokens__ after tokenization. For most of
 our training data, __each token is used only once during training__, with the exception of the Wikipedia
 and Books domains, over which we perform approximately two epochs.
+
+- - -
+
+![](files/llama-00.jpg)
