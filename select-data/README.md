@@ -1,6 +1,6 @@
-# Data Selection for Language Models via Importance Resampling (DSIR)
+# Data Selection for Language Models via Importance Resampling
 
-This repository contains pre-filtered datasets and code for selecting relevant language model training data from The Pile.
+https://github.com/p-lambda/dsir contains pre-filtered datasets and code for selecting relevant language model training data from The Pile.
 
 ## Pre-filtered datasets
 We provide datasets on HuggingFace that are already pre-filtered from The Pile. Stay tuned for more datasets!

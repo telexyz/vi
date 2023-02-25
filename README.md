@@ -52,8 +52,7 @@ TODOs
 - Dữ liệu lấy mẫu https://github.com/telexyz/data
 - Kết quả phân tích https://github.com/telexyz/results
 
-# Xây dựng tập dữ liệu đủ lớn
-
+# vi500: 500GB ngữ liệu tiếng Việt
 - [x] Sưu tầm "dữ liệu" đủ lớn, đủ đa dạng (ngoài tin tức, các dạng khác rất ít)
   - [x] Nguồn
     - Lọc từ https://github.com/CarperAI/pilev2 (chuẩn bị public)
@@ -61,14 +60,15 @@ TODOs
     - https://huggingface.co/datasets
     - https://www.kaggle.com/datasets
 
-  - [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, không phân chia theo văn bản)
-  - [x] OSCAR [vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB)
-  - [x] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB)
-  - [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G)
+  - [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, không update-to-date, không phân chia theo văn bản)
+  - [x] OSCAR [vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc)
+  - [x] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB, lọc từ cc?)
+  - [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G, nguồn tổng ?)
 
   - [x] Tin tức
-    - [x] Cần phân rã theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
+    - [ ] Cần phân rã và cân đối theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
     - https://huggingface.co/datasets/bigscience-data/roots_vi_binhvq_news_corpus (20GB đã lọc)
+      - Applied: dedup_document, dedup_template_soft, filter_remove_empty_docs, filter_small_docs_bytes_300
     - https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB lọc hay chưa?)
     - Có thể dùng dsir để lọc theo định hướng
 
