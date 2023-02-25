@@ -1,4 +1,4 @@
-# Data Selection for Language Models via Importance Resampling (DSIR)
+# Data Selection for Language Models via Importance Resampling
 
 This repository contains pre-filtered datasets and code for selecting relevant language model training data from The Pile.
 
