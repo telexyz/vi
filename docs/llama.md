@@ -10,6 +10,6 @@ Interestingly, even after 1T tokens the 7B model was still improving.
 | ![](https://pbs.twimg.com/media/FpvTXeJXwAAGmDU?format=png) | ![](https://pbs.twimg.com/media/FpvTcVtWYAEx6CD?format=png) |
 |---|---|
 
-Unlike Chinchilla, PaLM, or GPT-3, we only use datasets publicly available, making our work compatible with open-sourcing and reproducible, while most existing models rely on data which is either not publicly available or undocumented.
+Unlike Chinchilla, PaLM, or GPT-3, we __only use datasets publicly available__, making our work compatible with open-sourcing and reproducible, while most existing models rely on data which is either not publicly available or undocumented.
 ![](https://pbs.twimg.com/media/FpvTkckWYAAroWL?format=png)
 
