@@ -37,4 +37,3 @@ Notably, we __split all numbers into individual digits__, and fallback to bytes 
 Overall, our entire training dataset contains roughly __1.4T tokens__ after tokenization. For most of
 our training data, __each token is used only once during training__, with the exception of the Wikipedia
 and Books domains, over which we perform approximately two epochs.
-
