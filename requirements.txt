@@ -1,7 +1,0 @@
-transformers==4.26.0
-sentencepiece
-tiktoken==0.1.2
-ftfy
-lm_dataformat
-rich
-scipy
