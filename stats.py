@@ -8,7 +8,7 @@ def scan_docs(filename, maxx=None):
     for i in range(maxx):
         text = texts[i]
         n = len(text)
-        # if n < 100: continue
+        # if n < 10: print(text);
         if n > max_len: max_len = n
         if n < min_len: min_len = n
         total += n
@@ -17,6 +17,8 @@ def scan_docs(filename, maxx=None):
         if para_n > max_para: max_para = para_n
         if para_n < min_para: min_para = para_n
         total_para += para_n
+        
+        # if 3379 == max_para: print(text); assert False
 
         tk_n = text.count(' ') + para_n
         if tk_n > max_tk: max_tk = tk_n
@@ -30,11 +32,8 @@ Paragraphs: max {max_para}, min {min_para}, avg {total_para // maxx}.
 
 prefixs = [
     # "vi_meta_part_1",
-    # "vi_meta_part_99",
-    # "vi_meta_part_26",
-    # "vi_meta_part_35",
     "all"
 ]
 
 for prefix in prefixs:
-    scan_docs(f"{prefix}.txt")
+    scan_docs(f"{prefix}.utf8")
