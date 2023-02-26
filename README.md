@@ -58,10 +58,6 @@ TODOs
 
 - [x] OSCAR [vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc)
 
-- [x] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB đã lọc (theo tác giả))
-  - Nên phân rã và cân đối theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
-  - Có thể dùng dsir để lọc theo định hướng
-
 - [x] Văn bản pháp luật https://huggingface.co/datasets/th1nhng0/vietnamese_legal_corpus (6G raw text)
 
 - [x] Wikipedia
@@ -69,13 +65,43 @@ TODOs
   - https://huggingface.co/datasets/truongpdd/viwiki-dummy (240MB)
   - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB)
 
-- [ ] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB, nguồn?)
+- [ ] Sách
+  - Chưa có nguồn
 
-- [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G, nguồn?)
+- [ ] Văn bản chính quy
+  - Mới được 6G văn bản luật, cần crawl thêm ...
+
+- [ ] Khác (cần crawl thêm nguồn dữ liệu lớn và đa dạng này)
+  - Diễn đàn
+  - Mạng xã hội
+  - Public chat room
+  - ...
+
 
 - - -
 
-Chưa được lọc
+
+- [x] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB, lọc từ cc)
+  - Vì cùng lọc từ cc nên dùng OSCAR rồi thì thôi C4?
+
+- [x] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G, dịch giữa các ngôn ngữ)
+  - Có thể trùng với OSCAR và C4 => thôi?
+
+- [x] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB đã lọc (theo tác giả))
+  - OSCAR đã bao gồm cả news nên có thể bỏ quan news datasets khác 
+  - Nên phân rã và cân đối theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
+  - Có thể dùng dsir để lọc theo định hướng
+
+  - [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, xxxx-2020, mỗi doc là 1 line?)
+    - Bỏ qua vì chưa đọc lọc. Dùng OSCAR.
+
+  - [x] Truyện, thơ (1.1GB chưa nén, thơ OK + lowercases, truyện bị lẫn news)
+    - Không nhiều, có thể bỏ qua
+    - https://huggingface.co/datasets/truongpdd/vietnamese_story (480MB)
+    - https://huggingface.co/datasets/truongpdd/vietnamese_poetry_story (538MB)
+    - https://huggingface.co/datasets/bigscience-data/roots_vi_vietnamese_poetry (57MB)
+    - https://huggingface.co/datasets/truongpdd/vietnamese_poetry (64MB)
+    - https://huggingface.co/datasets/truongpdd/luc-bat (33MB)
 
 - [x] Sưu tầm "dữ liệu" đủ lớn, đủ đa dạng (ngoài tin tức, các dạng khác rất ít)
   - [x] Nguồn
@@ -84,27 +110,8 @@ Chưa được lọc
     - https://huggingface.co/datasets
     - https://www.kaggle.com/datasets
 
-  - [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, xxxx-2020, mỗi doc là 1 line?)
-
-  - [x] Truyện, thơ (1.1GB, thơ OK + lowercases, truyện bị lẫn news)
-    - https://huggingface.co/datasets/truongpdd/vietnamese_story (480MB)
-    - https://huggingface.co/datasets/truongpdd/vietnamese_poetry_story (538MB)
-    - https://huggingface.co/datasets/bigscience-data/roots_vi_vietnamese_poetry (57MB)
-    - https://huggingface.co/datasets/truongpdd/vietnamese_poetry (64MB)
-    - https://huggingface.co/datasets/truongpdd/luc-bat (33MB)
-
-  - [ ] Sách
-    - ...
-
-  - [ ] Văn bản chính quy
-    - Đang crawl ước tính từ khoảng 20G
-
-  - [ ] Khác?
-    - Diễn đàn
-    - Mạng xã hội
-    - Public chat room
-    - ...
 
 - - -
+
 
 ![](docs/files/vi-pre-processing.png)
