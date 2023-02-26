@@ -11,6 +11,8 @@
 
 TODOs
 
+- [ ] Tìm hiểu https://oscar-project.org, datasets và pipeline của họ rất tốt !!!
+
 - [ ] Chọn dữ liệu tương đồng với 1 tập dữ liệu đã có
   - [ ] Dùng [dsir](https://github.com/p-lambda/dsir) để lọc news có liên quan tới pháp luật
 
