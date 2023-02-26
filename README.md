@@ -55,6 +55,28 @@ TODOs
 - Kết quả phân tích https://github.com/telexyz/results
 
 # vi500: 500GB ngữ liệu tiếng Việt
+
+- [x] OSCAR [vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc)
+
+- [x] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB đã lọc (theo tác giả))
+  - Nên phân rã và cân đối theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
+  - Có thể dùng dsir để lọc theo định hướng
+
+- [x] Văn bản pháp luật https://huggingface.co/datasets/th1nhng0/vietnamese_legal_corpus (6G raw text)
+
+- [x] Wikipedia
+  - https://dumps.wikimedia.org/viwiki (1GB nén, raw, download trực tiếp)
+  - https://huggingface.co/datasets/truongpdd/viwiki-dummy (240MB)
+  - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB)
+
+- [ ] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB, nguồn?)
+
+- [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G, nguồn?)
+
+- - -
+
+Chưa được lọc
+
 - [x] Sưu tầm "dữ liệu" đủ lớn, đủ đa dạng (ngoài tin tức, các dạng khác rất ít)
   - [x] Nguồn
     - Lọc từ https://github.com/CarperAI/pilev2 (chuẩn bị public)
@@ -63,23 +85,8 @@ TODOs
     - https://www.kaggle.com/datasets
 
   - [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, xxxx-2020, mỗi doc là 1 line?)
-  - [x] OSCAR [vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, nguồn?)
-  - [x] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB, nguồn?)
-  - [ ] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G, nguồn?)
 
-  - [x] Tin tức
-    - [ ] Cần phân rã và cân đối theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
-    - https://huggingface.co/datasets/bigscience-data/roots_vi_binhvq_news_corpus (20GB đã lọc, bị cắt nhỏ bởi preprocessing => not good)
-      - Applied: dedup_document, dedup_template_soft, filter_remove_empty_docs, filter_small_docs_bytes_300
-    - https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB lọc hay chưa?)
-    - Có thể dùng dsir để lọc theo định hướng
-
-  - [x] Wikipedia (1GB nén)
-    - https://dumps.wikimedia.org/viwiki (1GB nén, download trực tiếp)
-    - https://huggingface.co/datasets/truongpdd/viwiki-dummy (240MB)
-    - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB)
-
-  - [x] Truyện, thơ (1.1GB)
+  - [x] Truyện, thơ (1.1GB, thơ OK + lowercases, truyện bị lẫn news)
     - https://huggingface.co/datasets/truongpdd/vietnamese_story (480MB)
     - https://huggingface.co/datasets/truongpdd/vietnamese_poetry_story (538MB)
     - https://huggingface.co/datasets/bigscience-data/roots_vi_vietnamese_poetry (57MB)
