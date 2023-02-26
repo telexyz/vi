@@ -1,15 +1,35 @@
 # Mấu chốt
 
-- [ ] Làm thế nào để có metrics đánh giá "độ tốt" của văn bản?
+- Làm thế nào để có metrics đánh giá "độ tốt" của văn bản?
   - Để có thể chọn văn bản từ tốt tới xấu cho đến một độ lớn nhất định thì dừng lại
   - Để khi huấn luyện chọn ra một tỉ lệ nhất định các văn bản tốt huấn luyện trước?
 
-- [ ] Làm thế nào để lọc ra văn bản vừa "tốt" vừa "đa dạng" từ nhiều nguồn?
+- Làm thế nào để lọc ra văn bản vừa "tốt" vừa "đa dạng" từ nhiều nguồn?
   - Cân bằng về số lượng tokens giữa các categories?
 
 - - -
 
 TODOs
+
+- [ ] Chọn [OSCAR vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc) làm thử nghiệm với, cần scan qua để xem thể loại nội dung
+
+- [ ] Thống kê dữ liệu OSCAR vi, bao nhiêu docs, thể loại, độ dài ngắn, số lượng âm tiết / doc, độ phủ tiếng Việt ...
+
+- [ ] Lọc một phần dữ liệu để train tokenizer. Note: Với kiểu dữ liệu khác nhau có thể cần cách tokenizer khác nhau cho phù hợp.
+
+- [ ] Build symato+ tokenizer, so sánh hiệu năng (khả năng nén) của symato+ vs sentencepiece vs wordpiece
+
+- [ ] Chọn tokenizer phù hợp nhất
+
+- [ ] Tokenize dữ liệu và lưu dưới định dạng binidx
+
+- [ ] Thử huấn luyện trước mô hình 200m params trong lúc chờ phần cứng tốt hơn
+
+
+- - -
+
+
+RESEARCH
 
 - [ ] Tìm hiểu https://oscar-project.org, datasets và pipeline của họ rất tốt !!!
 
@@ -35,7 +55,9 @@ TODOs
   - [ ] Cramming paper
   - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
 
+
 - - -
+
 
 # Kịch bản tiền xử lý dữ liệu
 > Cramming paper có nhiều ý tưởng tốt cho limited computing power. `bigscience-workshop` có pipeline tiền xử lý dữ liệu chỉnh chu nhất.
@@ -54,7 +76,7 @@ TODOs
 - Dữ liệu lấy mẫu https://github.com/telexyz/data
 - Kết quả phân tích https://github.com/telexyz/results
 
-# vi500: 500GB ngữ liệu tiếng Việt
+# 500GB ngữ liệu tiếng Việt
 
 - [x] OSCAR [vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc)
 
@@ -62,8 +84,8 @@ TODOs
 
 - [x] Wikipedia
   - https://dumps.wikimedia.org/viwiki (1GB nén, raw, download trực tiếp)
-  - https://huggingface.co/datasets/truongpdd/viwiki-dummy (240MB)
-  - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB)
+  - https://huggingface.co/datasets/truongpdd/viwiki-dummy (240MB, cần kiểm tra chất lượng)
+  - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB, có thể bị cắt nhỏ, cần kiểm tra)
 
 - [ ] Sách
   - Chưa có nguồn
