@@ -19,10 +19,15 @@ TODOs
   - Lỗi chính tả, dính từ ...
 
 - [ ] Thống kê dữ liệu OSCAR vi, bao nhiêu docs, thể loại, độ dài ngắn, số lượng âm tiết / doc, độ phủ tiếng Việt ...
+  - Lấy mẫu 1/10 dữ liệu, lọc ra được khoảng 5G text, và thống kê:
+    - Found 956751 documents,
+    - Characters: max 6160173, min 1, avg 4475.
+    - Est Tokens: max 153393, min 1, avg 946.
+    - Paragraphs: max 5370, min 1, avg 42.
 
 - [ ] Lọc một phần dữ liệu để train tokenizer. Note: Với kiểu dữ liệu khác nhau có thể cần cách tokenizer khác nhau cho phù hợp.
 
-- [ ] Build symato+ tokenizer, so sánh hiệu năng (khả năng nén) của symato+ vs sentencepiece vs wordpiece
+- [ ] Build symato based trên lowercase syllables, so sánh hiệu năng (khả năng nén) của symato+ vs sentencepiece vs wordpiece
 
 - [ ] Chọn tokenizer phù hợp nhất
 
