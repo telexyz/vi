@@ -24,12 +24,24 @@
 # sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_86.jsonl > vi_meta_part_86.txt
 # sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_99.jsonl > vi_meta_part_99.txt
 
-rm -rf data
-mkdir -p data
-touch data/00__TYPE_COUNT_______
-touch data/10__TYPE_LISTING_____
-touch data/20__N-GRAMS__________
-touch data/30__ABNORMAL_________
-touch data/40___________________
+# sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_2.jsonl > vi_meta_part_2.txt
+# sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_10.jsonl > vi_meta_part_10.txt
+# sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_22.jsonl > vi_meta_part_22.txt
+# sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_32.jsonl > vi_meta_part_32.txt
+# sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_42.jsonl > vi_meta_part_42.txt
+# sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_52.jsonl > vi_meta_part_52.txt
+# sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_60.jsonl > vi_meta_part_60.txt
+# sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_72.jsonl > vi_meta_part_72.txt
+# sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_82.jsonl > vi_meta_part_82.txt
+# sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_92.jsonl > vi_meta_part_92.txt
 
-telexify all.txt all.utf8 utf8 ngram
+./telexify 01122635465162798699.txt 01122635465162798699.utf8 utf8
+
+# rm -rf data
+# mkdir -p data
+# touch data/00__TYPE_COUNT_______
+# touch data/10__TYPE_LISTING_____
+# touch data/30__ABNORMAL_________
+# touch data/40___________________
+# touch data/20__N-GRAMS__________
+# telexify all.txt all.utf8 utf8 ngram
