@@ -35,7 +35,8 @@
 # sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_82.jsonl > vi_meta_part_82.txt
 # sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_92.jsonl > vi_meta_part_92.txt
 
-./telexify 01122635465162798699.txt 01122635465162798699.utf8 utf8
+# ./telexify 01122635465162798699.txt 01122635465162798699.utf8 utf8
+# ./telexify vi_meta_part_10.txt vi_meta_part_10.utf8 utf8
 
 # rm -rf data
 # mkdir -p data
