@@ -9,3 +9,4 @@ __pycache__
 deduplicate-text-datasets/
 .ipynb_checkpoints
 none
+*.7z

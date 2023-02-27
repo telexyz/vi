@@ -1,0 +1,477 @@
+^^khoang  ^^khuynh  ^^khoanh  ^^nghinh  ^^thoong  ^^gioang  ^^thoang  ^^ngoong
+
+^^choang  ^^choong  ^^trang  ^^trung  ^^trong  ^^doanh  ^^thanh  ^^nhanh
+
+^^chung  ^^phong  ^^quang  ^^giang  ^^tranh  ^khoang  ^khuynh  ^nghinh  ^^khung
+
+^^thang  ^^trinh  ^^ngang  ^^khang  ^^khoan  ^^hoang  ^^chinh  ^^nhung  ^^huynh
+
+^khoanh  ^^quanh  ^^chanh  ^^nhang  ^choang  ^^khoai  ^^phanh  ^^khanh  ^choong
+
+^^thong  ^^nghia  ^^xoang  ^^ngoan  ^^chang  ^^thinh  ^^ngoai  ^^khong  ^^chong
+
+^^thung  ^^cheng  ^thoang  ^thoong  ^khoong  ^^gioan  ^nhoong  ^^coong  ^ngoong
+
+^^toong  ^^thoai  ^^khinh  ^^khuya  ^^nganh  ^^quynh  ^^phang  ^^xoong  ^^loong
+
+^^toanh  ^^nghin  ^^choai  ^^phung  ^^toang  ^^khoen  ^^giong  ^^loang  ^gioang
+
+^phoong  ^^thoan  ^^gianh  ^choeng  ^^boong  ^^ngheo  ^^nguyn  ^^gheng  ^^chuyn
+
+^^nghen  ^khoeng  ^^hoanh  ^phoanh  ^^ngong  ^^nghim  ^thuynh  ^^roeng  ^^nghiu
+
+^^poong  ^^noong  ^^loanh  ^phoang  ^^nhong  ^troang  ^^goong  ^^soong  ^gioong
+
+^^theng  ^^doang  ^thoanh  ^^tuynh  ^nhoeng  ^^ngung  ^^quong  ^^poang  ^nhoang
+
+^troong  ^^khuyu  ^ngoanh  ^^roang  ^^nhinh  ^^moong  ^trung  ^trong  ^thanh
+
+^trang  ^giang  ^phong  ^quang  ^doanh  ^tranh  ^chung  ^nhanh  ^trinh  ^^quan
+
+^^sinh  ^^kinh  ^^ngay  ^khoan  ^^minh  ^khang  ^khung  ^^danh  ^nhung  ^^loan
+
+khoang  ^chinh  ^^theo  ^thang  ^^khoa  ^hoang  ^^phim  ^^giao  ^^dung  ^khanh
+
+^^long  ^^tham  ^ngang  ^^cung  khuynh  ^^ninh  khoanh  ^^khai  ^^thao  ^huynh
+
+^ngoan  ^^gian  ^chanh  ^^xanh  ^^linh  ^^chia  ^gioan  ^^tinh  ^khoai  ^^sang
+
+^thung  ^^thay  ^quanh  ^^phan  ^^vinh  ^^nghe  ^nhang  ^^song  ^chang  ^^ngon
+
+^^quay  ^^dong  ^^nguy  ^^mang  ^^treo  ^^xinh  ^^phun  ^^trao  ^phanh  ^khinh
+
+^^truy  ^^thai  ^^nhau  thoang  ^^giai  ^^dinh  ^^nang  ^^sung  ^^cong  ^^chim
+
+^thong  ^^binh  ^phung  ^thoai  ^^canh  ^khong  ^^chay  ^cheng  ^^nghi  ^thinh
+
+^^trai  ^^than  ^chong  ^^bong  ^quynh  ^xoang  ^^thun  ^khuya  ^^dang  ^^mong
+
+^^vang  ^^xoay  ^^khen  ^^sanh  nghinh  ^^tang  ^^khay  ^^khau  ^^chai  ^^hong
+
+^^ghen  ^^rang  ^gianh  ^^rung  ^^hang  ^^lang  ^^tron  ^phang  ^^bang  ^^ghem
+
+^^vong  ^noong  ^^nhan  ^^tran  ^^xung  ^nghia  ^^quen  ^^hung  ^^toan  ^toong
+
+^^ranh  choang  ^khoen  ^^gang  ^^xong  ^^giay  ^^tung  ^^hoan  ^^thua  ^^hinh
+
+^thoan  ^^phao  ^^rong  ^ngoai  ^^phay  ^hoanh  ^boong  ^^pham  ^^oanh  ^^nung
+
+^^gheo  ^giong  ^loong  ^^hanh  ^^cang  ^^lanh  ^xoong  ^^khoe  ^^chan  ^coong
+
+^^rinh  ^^giam  ^^banh  ^^thuy  ^^trim  ^ngung  ^^quai  ^^thoi  ^^tong  ^^tram
+
+^^chau  ^^vung  ^goong  ^^manh  ^^ngan  ^^thon  ^tuynh  ^^phai  ^^lung  ^^thoa
+
+^moong  ^^khan  ^poong  ^^nhai  ^^doan  ^^gieo  ^^tren  ^^nong  ^hoong  ^^phuy
+
+^^tray  ^^giun  ^^phin  ^loanh  ^^gioi  gioang  ^^cham  ^^chin  ^nguyn  ^^nhua
+
+^nghin  ^^khao  ^nganh  ^^bung  ^^trum  ^^xoan  ^^kheo  ^choai  ^^ghim  ^^voan
+
+^^chun  ^^khuy  ^theng  ^roong  ^treng  ^^chen  ^loang  ^^thau  ^^chum  ^^chem
+
+^^chui  ^gheng  ^^nhon  ^^then  ^^loai  ^^troi  ^^choi  ^ngong  ^^chon  ^goanh
+
+^nhinh  ^^nham  ^^khoi  ^^ngao  ^^them  ^^chao  ^^nhoi  ^nhong  ^^khin  ^phinh
+
+^soong  ^^thin  khoong  ^^tanh  ^^seng  ^toanh  ^toang  ^^kham  ^chuyn  ^doong
+
+^^khon  ^^tuya  ^^phoi  ^^chiu  ^choay  ^^teng  ^kheng  ^doang  ^^phom  ^^hoai
+
+^^quin  ^^ngai  ^^trau  ^^nanh  ^^khui  ^nghen  ^^ngua  ^^nhin  ^luynh  thoong
+
+^^ngam  ^^thom  ^^keng  gioong  ^^nhay  ^^trun  ^^chuy  ^ngheo  ^^nhom  ^^phau
+
+^^huya  ^^poem  ^^ganh  ^^choa  ^gieng  ^^trin  nhoang  ^^ngoi  ^^heng  ^giung
+
+thoanh  ^^xoai  ^^doai  choanh  ^^roam  ^^boem  ^ghinh  ^^cheo  ^^nhum  ^^xang
+
+^^vanh  ^^giau  ^^quyn  ^pheng  ^^beng  ^^thui  ^^deng  ngheng  ^^phia  ^^moen
+
+^^nheo  ^^khua  ^^loen  ^^noan  ^roanh  ^^pong  ^^giua  ^truyn  ^choem  ^^khem
+
+^loeng  ^^gong  ^noeng  ^^pang  ^queng  ^giuyn  choong  ^^huyu  ^^ngun  ^boeng
+
+^poang  ^soeng  ^^mung  ^^phen  ^^quao  ^^soan  ^^gien  ^^huyn  ^^tria  ^^quam
+
+^^phiu  ^^moan  ^voang  ^^peng  choeng  ^duynh  ^goang  ^^soai  ^ngoen  phoong
+
+^khuyn  ^^leng  ^voong  ^troan  ^^loay  ^^nhen  ^^nghy  troong  ^^khom  ^choam
+
+^^hoay  ^^triu  ^khoay  ngoanh  ^^tuyn  ^^guyn  ngoong  ^^khia  ^^roan  ^^quoi
+
+^nghim  ^^phon  ^^hoen  ^^thia  ^^trom  ^^noam  ^^khum  ^^gung  ^nguyu  ^^trem
+
+^chuyu  ^^khun  ^phoam  ^^soay  ^khoeo  ^troai  ^^nhem  ^^meng  ^^nhuy  ^quong
+
+ngoang  ^choen  thuynh  ^^ngui  gioanh  ^^nhiu  khoeng  ^thuya  ^^phum  ^goeng
+
+^^queo  ^^boen  ^^duyn  ^phoan  ^^loam  ^^voem  ^^moao  ^noang  troang  ^^gium
+
+^^phui  ^^xeng  nhoong  ^nheng  ^nhoai  ^^ghia  ^poeng  ^roeng  ^boanh  ^choan
+
+^^thim  ^^pheo  ^^noen  ^^ngoa  ^quinh  ^ngoao  phoang  ^gioen  ^nhoam  ^boang
+
+^^panh  ^troen  ^nhoan  ^^thiu  ^xoanh  ^^boao  ^^pinh  ^^doem  ^^boai  nhuynh
+
+phuynh  ^soang  ^^trui  ^^luyu  ^^nhim  ^^giui  ^^chom  ^nhoem  ^^nhoe  ^nghem
+
+^^moem  ^^moay  ^^toai  phoanh  troeng  ^moang  ^^khim  ^nguya  trong  doanh
+
+trang  trung  thanh  nhanh  ^minh  phong  chung  tranh  ^kinh  ^long  ^theo
+
+^ninh  ^khoa  ^linh  ^phim  ^danh  quanh  ^sinh  ^giao  quang  khung  ^chia
+
+^quan  ^cung  ^^seo  ^vinh  giang  ^phan  ^^tin  thang  ^tham  ngang  ^loan
+
+^thay  ^tinh  ^ngay  ^khai  ^dung  ^^nam  khoan  ^song  hoang  ^xanh  huynh
+
+^^xem  ^^cho  chinh  ^nghe  chanh  ^^chi  ^mang  ^thao  ^sang  khoai  ^^mua
+
+^dinh  ^nghi  ^giai  ^^gia  ^quay  ^canh  ^^cao  ^truy  khong  ^lang  ^mong
+
+^^keo  nhung  phanh  ngoan  ^trao  ^gian  trinh  chong  ^thai  thoai  ^^thi
+
+^cong  ^^anh  ^ngon  ^vang  nhang  ^hang  ^^siu  ^^quy  ^binh  ^^ram  ^^com
+
+^^hoa  ^treo  ^than  ^trai  ^oanh  ^chim  khuya  ^hong  thong  ^bang  ^nguy
+
+^xinh  xoang  khinh  ^ranh  ^^khi  ^cang  khanh  ^^sao  ^^tay  ^^bao  ^^kim
+
+^^lao  ^chay  ^^con  ^phun  ^rang  ^^ban  ^hung  ^xung  thung  khang  ^tran
+
+^nang  ^^thu  ^^lan  ^dong  ^nhau  ^ghem  ^^voa  ^rong  ^^khu  ^sanh  ^hoan
+
+^ghen  ^^the  ^tang  ^^hay  ^nhan  ^^cam  ^^qua  ^^sim  ^^nay  ^^soi  ^bong
+
+^^kia  ^hinh  ^thun  ^hanh  ^khay  ^^pin  ^^tra  ^chai  ^sung  ^^nha  ^khen
+
+ngoai  ^^che  ^thoa  ^^sau  nganh  ^^xin  ^^may  ^chen  ^pham  ^xoay  ^^mai
+
+^tung  ^^bay  ^^vui  ^^roi  nghia  ^phao  ^^kho  ^^duy  ^xong  ^gang  ^^hai
+
+^nhai  ^manh  ^rung  ^^kem  ^^oem  ^^nai  xoong  chang  ^^ngo  ^toan  ^vung
+
+^vong  ^lung  ^nong  ^^mia  ^^huy  ^^rao  ^^pha  ^^lai  ^^sai  ^chan  thinh
+
+^quen  ^choi  ^^ghi  loang  ^^tai  ^^phi  ^^tri  ^^tam  ^^nhi  ^^ghe  ^khan
+
+^^ron  ^dang  ^^dai  ^thuy  ^nham  ^^tem  ^^rom  ^chao  ^^van  ^^vay  ^^tha
+
+^^non  ^giam  ^chau  ^^suy  ^^men  ^gieo  ^kheo  ^tram  ^tong  ^^cua  ^^loa
+
+^ngao  ^^dao  ^^san  ^^can  ^^bim  ^^cha  ^^din  ^nung  phung  ^quai  ^^nga
+
+giong  ^^sen  ^banh  ^lanh  ^chin  ^^nan  ^^tim  ^ngan  ^^toa  ^tray  ^khoe
+
+^^vua  ^doan  ^^lam  ^^nhu  ^^chu  nghen  ^^tre  ^quao  toanh  loanh  ^^poe
+
+^phay  nghin  ^^tan  ^^cai  ^^han  ^^sin  toang  ^^vai  ^^rau  ^then  ^chun
+
+^^neo  ^^ung  ^^sun  boong  ^^son  ^^gan  ^tron  ^hoai  ^^xay  ^nhon  ^^ong
+
+^thoi  ^^mui  ^khao  ^ghim  ^^qui  ^kham  ^^mau  ^giay  phang  ^^sam  ^^leo
+
+^^man  ^phin  ^^day  ^^roe  ^^coi  ^gong  ^^sem  ^^heo  ^^bom  ^xoan  ^bung
+
+^^try  khoen  ^giun  ^^hon  ^ngai  ^^gam  ^^tao  ^^bia  ^peng  ^^phu  ^phai
+
+^khau  ^^pen  ^^gon  ^^ngu  ^thin  ^voan  ^leng  ^chum  ^^lau  ^khuy  ^^doi
+
+^^oai  ^^noi  ^^pom  ^^don  ^cham  ^chon  ^^pan  ^^vin  ^^eng  ^phen  ^^tum
+
+^^nem  ^^den  ^^len  ^pang  ^nhim  ^^tia  ^rinh  ^^min  ^^hui  ^^ren  ^^gom
+
+^^cau  ^^roa  ^thom  ^^bai  ^meng  ^thau  ^nanh  ^^ben  nhong  ^^dom  ^^ven
+
+^vanh  ^khoi  ^^tui  ^nhum  quynh  ^gioi  choai  ^chem  ^^dan  ^^sum  ^^mon
+
+^^gui  ^^hem  chuyn  ^chiu  ^mung  ^keng  ^^gai  ^^pam  ^^nho  ^trim  ^khui
+
+^thon  ^troi  ^khem  ^trau  gianh  ^trum  ngheo  nguyn  ^^dem  ^^mom  ^^buy
+
+^^moi  ^^rem  ^^oan  ^^pho  ^^run  ^^voi  ^^cay  ^cheo  ^gheo  ^^gay  ^^que
+
+^^kha  ^^ken  ^^nim  ^^ham  ^^som  ^^mao  ^^bin  ^^tho  ^^guy  ^tren  ^^tuy
+
+^ngoi  ^loay  ^^ray  ^seng  ^^miu  ^phuy  ^chui  ^^khe  ^^pay  cheng  ^them
+
+^beng  ^^via  ^loai  ^^say  ^^him  ^chuy  ^^lim  ^pong  ^^hao  ^^thy  ^^lon
+
+^^tom  ^^ria  ^^hoi  khoeo  ^nhin  ^khon  ^^dau  ^phia  ^phom  ^^xoa  ^^ghy
+
+^moan  ^^ten  ^^ton  ^^boi  ^^rim  ^deng  ^huyn  ^^boe  ^^nao  ^^mam  ^heng
+
+^pung  ^khun  ngung  ^^toi  ^^phe  ^ngam  ^tanh  ^^lem  ^choa  ^^nin  ^^dia
+
+^^hiu  ngoao  ^nhom  ^^moa  ^^lum  ^^lin  ^^hum  ^^kin  ^^toe  ^thia  ^ganh
+
+^^vam  ^^tru  coong  ^^xau  ^pheo  ^^tau  ^^pia  soong  ^^gio  ^^tro  toong
+
+^^sia  ^gung  ^soan  ^^inh  ^^hen  ^xang  ^^dim  ^teng  ^^gin  ^^pim  hoanh
+
+loong  ^poem  ^^bui  moong  ^choe  ^^soa  ^^bon  ^^ran  ^tuyn  gieng  ^^dam
+
+^^mem  nghim  ^giau  ^^lay  ^^pai  ^tuya  doang  ^quyn  ngong  roong  ^^goi
+
+^^hin  ^^ang  ^^pao  ^^gum  ^^bun  ^^loi  ^nhen  ^xeng  ^^pon  ^^vom  ^^vim
+
+^reng  ^thui  ^^goa  ^phon  ^^lia  ^gion  ^^doe  ^^xua  ^phoi  ^^rai  ^^sua
+
+^khin  ^^tua  ^^doa  ^^sui  ^noam  ^^vem  ^phum  ^trun  ^ngua  ^veng  ^ngoa
+
+^^mun  ^^hom  ^^cun  ^trui  ^nghy  ^^nia  ^roam  xoanh  ^^vao  ^^moe  ^^bam
+
+^^nen  ^phau  ^^lun  ^^xao  ^^boa  ^^hia  ^noen  ^^gau  nheng  goong  ^^phy
+
+^nhua  ^^xui  ^^teo  ^^poa  ^nheo  ^^peo  ^^nui  ^^gao  ^^liu  ^^nau  ^^xen
+
+^^bem  ^^rin  ^^lui  ^ngun  ^^meo  ^^pau  ^^lua  ^nhuy  ^^deo  choay  ^khum
+
+^^von  ^nhem  ^moen  ^^mum  nhoay  ^^tun  ^quin  ^^ruy  ^moay  ^quim  ^khom
+
+^^num  ^^bum  ^ngau  ^^hun  ^gien  ^^xeo  ^^gun  ^nhao  ^nhoi  ^quam  ^thum
+
+^chom  ^^mim  ^^niu  ^panh  ^^cum  ^^viu  ^^bau  ^xoai  ^^kiu  ^^pum  ^thiu
+
+^^reo  phinh  ^^beo  ^trom  ^nhay  ^^hau  ^^vun  ^giua  ^^soe  ^hoen  ^khim
+
+^^gim  ^^rua  ^^nhe  ^noai  ^^poi  ^ngum  ^^nom  ^^bua  khoay  ^loen  thoan
+
+truyn  ^^rum  troai  ^^xim  ^moai  ^^pem  ngoay  ^neng  ^thim  theng  ^^dui
+
+^^pun  ^^xam  ^^noa  ^^luy  ^hoay  ^trin  ^^cui  ^^veo  khuyn  ^^gua  ^^quo
+
+^^oao  nhinh  ^tria  ^^pua  ^^hoe  ^boao  ^^lom  ^noan  voong  ^quoi  ^^loe
+
+^pinh  ^soai  nhoai  ^^dun  ^goan  ^nhiu  ^^tiu  poong  ^thoe  ^gioa  ^huya
+
+^^giu  doong  ^^gie  ^noem  ^roem  ^^xuy  soang  roang  ngoeo  ^troa  ^^dum
+
+^^diu  ^oang  ^soen  ^phui  ^^uyu  ^phiu  ^nhun  ^roan  ^^rui  ^^xom  hoong
+
+^suyu  ^phoa  ^uynh  gioan  pheng  khuyu  voanh  ^luyn  ^^xiu  noong  nghiu
+
+^^nun  ^khia  ^nhia  ^^biu  ^^oeo  ^huyu  nhoam  ^puya  ^ghia  ^^xun  giung
+
+^queo  ^loam  ^trem  ^^chy  ^toai  ^goam  ^^xia  ^^muy  tuynh  ^^oam  ^triu
+
+^^noe  ^duyn  ^ghin  ngoam  ^^riu  ^khiu  ^^pui  ^ngoe  ^xuyn  thuya  ^^voe
+
+^oong  ^doai  ^^nuy  ^suya  ^^xoe  ^^oay  ^^oen  ^quem  nhoen  treng  ^hoem
+
+xuynh  gheng  ^guyn  thuyn  nhoem  ^^uya  ^^piu  ^^xan  ^^xai  ^^xoi  ^voam
+
+boang  soanh  quinh  ^quau  ^ruyu  duynh  ^roai  roanh  ^phem  luynh  ^nhui
+
+moang  choem  ^^khy  ^^puy  ^muya  ^ngui  goanh  ^buyn  ^cuya  ^nhoa  phoen
+
+choan  ^muyu  ^boen  boanh  hoeng  ^^uyn  ngoem  ^hoam  loeng  ghinh  truyu
+
+^giem  thoem  ^soay  ^doen  ^goai  ^ngom  ^^goe  ^goen  kheng  ^^vau  soeng
+
+^xoen  nhuyn  ^puyn  nghem  ^suyn  ^phoe  ^^xum  ^doem  ^poen  ngoen  noanh
+
+^doam  ^nhoe  ^quon  ^^xon  ^tuyu  ^toen  khoam  ^toay  ^^nhy  goang  ^poan
+
+giuyn  ^buya  ^oeng  thoao  choen  ^quia  truya  phuya  quan  ^nam  theo  sinh
+
+kinh  gian  cung  mang  giao  nhau  tham  ^xem  ngay  ^anh  dung  khai  thay
+
+^tin  tinh  minh  khoa  ^khi  danh  ^sau  chia  ^tuy  ^hoa  sang  phim  ^cao
+
+^ban  nghe  ^gia  xanh  ^cho  ^chi  thao  ^quy  ^hai  mong  nguy  thai  sung
+
+linh  ^kim  ngon  ninh  ^con  giai  ^lan  quay  truy  ^the  ^khu  ^thu  quen
+
+trai  trao  ^soi  ^nha  binh  dinh  nghi  ^mai  ^lai  xung  ^thi  xong  ^nga
+
+^xin  ^phi  song  ^sao  ^tam  ^nai  ^duy  than  treo  ^vui  chua  xinh  nang
+
+^huy  dong  ^^ty  vinh  ^lao  phun  ^hay  thua  ^cam  long  bang  ^may  sanh
+
+canh  ^bao  vong  cong  ^sim  ^qua  chim  xoay  ^cai  hang  bong  ^cha  khen
+
+^tre  vang  thun  ^mau  rang  ^tum  rung  tung  ^tay  ^kem  ^man  ^chu  chai
+
+^kho  lang  ^rao  ^nhi  ^ghi  nhan  tang  ^^am  ^tai  ^pin  giam  hung  chay
+
+dang  ^lam  ^nay  ^^mu  vung  ^van  ghen  ^tra  ^^an  ^san  ^^ai  hoan  lanh
+
+^^xe  ^vay  ^loa  ^suy  kham  khoe  kheo  ^sen  ^^vi  manh  ^son  ^tri  ^bay
+
+phan  ^dao  ^seo  ^nhu  ^^co  ^sun  loan  ^ung  thoa  lung  ^^in  ^^du  hanh
+
+khay  toan  rong  thoi  ^pha  ^^pe  phai  gieo  ^can  ^rau  pham  ^tim  ^^ca
+
+khan  ^kia  ^vai  khao  nung  them  nhon  ranh  doan  thon  ^^sa  ^^ui  ^phu
+
+chau  ^coi  ^^da  ^nho  banh  ^^uy  ^com  ^oai  ^^ba  hinh  ^keo  nhai  ^sai
+
+thuy  gang  ^min  ^day  ngan  trau  ^^di  ^tao  chao  chan  phao  ^mao  ^che
+
+choi  ^non  ^tem  chui  ^ham  ^^pu  ^men  quai  ^^em  tanh  phay  ngai  ^^pa
+
+^qui  ^bia  nong  ^^xi  ^^so  then  ^tan  ^^ke  chen  ^^do  ^kha  ^sam  ^^ro
+
+^tho  gioi  ^^ra  tren  ^tom  ^cua  tran  giun  bung  ^^ma  ^xay  ^don  ^bom
+
+^^la  ^heo  ^^se  ^nan  ^ong  ^gan  ^^tu  ^^bi  ^tha  ^han  ^^ta  tron  khau
+
+^tui  ^ben  giay  ^dan  ^^cu  ^^no  ^^en  ^gai  ^ram  ^thy  ^^un  thia  ^noi
+
+voan  ^khe  ^leo  ^ngu  ^^on  ^^ha  thau  hoay  ^run  ^lau  ^pay  ^^mi  loay
+
+^ngo  ^gio  ^^go  ^dai  ngao  ^^na  ^voi  ghim  nham  ^^ly  ^rai  ^ray  ^ken
+
+hong  nheo  tong  ^him  chon  ganh  ^que  loai  phen  ^^ga  ^hen  ^tia  xoan
+
+^^ho  ^buy  ^xoa  ^^to  ^say  ^sin  ^lim  oanh  ^mon  rinh  cang  ^neo  ^^su
+
+^^de  troi  ^cau  ^^me  ^bai  ^^va  ^^iu  ^^le  ^lay  ^bin  cham  thui  ^vin
+
+^toi  ^^ki  ^nem  ^cay  ^gay  chum  ^mia  ^tro  ^len  phin  xang  ^hao  ^bon
+
+^^bo  ^ren  nhom  ^^by  ^lin  nhen  ^^po  ^hoi  phuy  ^^xa  ^poe  ^liu  hoen
+
+^oan  nanh  soan  ^^xu  ^^re  ^bui  ^pen  giua  ^pan  ^hau  phom  ^^hy  ^hun
+
+chiu  ^gam  ^mom  nhoi  thiu  ^^be  ^miu  ^^my  chun  ^^om  tram  khoi  ^^hi
+
+khom  ^gun  ^tru  ngoa  ngoi  ^^he  ^phe  ^guy  ^mun  ^gon  ^^ia  ^tau  ^ron
+
+phoi  ^ven  ^ten  ^pho  khuy  ^lon  ^giu  ^^ua  ^moi  ^^ni  hoai  ^^au  ^bum
+
+khem  ^^te  ^^ne  trom  ^sum  ^toa  khui  ^^ao  ^meo  ^^lo  ^lem  nhin  ^^xo
+
+nhao  ^^vu  ^^si  ^dia  ^^im  ^^ti  ^^ny  ^hon  ^nin  ^doi  ^mui  ^cun  ^kin
+
+^dau  ^^gi  cheo  nhay  ^^oa  ^rin  khon  ghem  ^via  phui  ^nao  ^loi  ^gum
+
+^^vy  ^rom  ^pao  ^^pi  gien  giau  ^hom  ^^ky  ^xui  ^^ve  ^boi  ^goi  keng
+
+^roi  ^gin  chuy  ^sua  phiu  ^den  nhem  phau  ^dam  ngua  ^^mo  ^gao  ^^hu
+
+thin  ^eng  ^try  ^xen  ^ria  ^^nu  ^rim  ^ruy  ^dom  beng  ^^li  trui  ^ghe
+
+^hin  oang  chin  ^^eo  ^gom  phia  ^beo  queo  ^lui  ^^lu  ^^ru  mung  ^^vo
+
+^ton  ^bun  ^^bu  ^hoe  ^ang  thom  tuyn  ^niu  ^ran  ^rum  ^siu  ^teo  ^moe
+
+^rui  nhum  ^hui  ^nau  ^hum  leng  ngam  nhiu  ^von  ^nui  ngoe  ^pai  ^sui
+
+^^ri  ^bau  khum  ^^xy  ^lua  ^^um  reng  tray  ^^ay  ^din  vanh  ^bim  ^luy
+
+^^gu  quam  ^boa  ^pau  ^^dy  ^reo  nghy  ^pom  khiu  ^nen  ^tun  ^^sy  ^vao
+
+^xan  ^dim  panh  ^xiu  ^xuy  trum  ^cum  ^xia  ^^oe  chem  uynh  oong  ^som
+
+^xao  gheo  chom  ^^py  ^nom  phum  ^cui  ^mum  ^dun  ^vun  ^hiu  khia  ^^oi
+
+^goa  ^pia  ^dem  ^lia  ^pon  ^nia  ^bam  ^pun  ^lun  choa  ^noa  ^nim  teng
+
+ngun  ^rem  ^sia  ^^ry  ^pui  phon  ^pam  ^vam  ^soa  ^lum  ^doe  ^gui  trim
+
+huyn  ^mem  ^toe  trua  ^rua  moay  ^boe  ^hem  ^moa  gion  gong  xoai  seng
+
+gung  ^num  ^sem  ^vim  thoe  ^mam  ^xam  ^soe  ^deo  soay  ^roe  ^nhe  ^hia
+
+^pim  ^xeo  xeng  ngau  ^nun  ^oem  thim  pong  trun  pang  thum  ^ghy  quia
+
+^doa  gioa  ^kiu  poem  ^tiu  ^xai  ^noe  nhim  ^xun  nhoe  ^viu  ^piu  ^loe
+
+^roa  khun  ^nhy  ^veo  choe  ^gim  ^xim  ^xoi  ^pum  ^lom  ^xum  ^diu  quyn
+
+trin  ^bem  heng  ^voa  tuya  ngui  ^gie  nhoa  ^inh  ^xom  pheo  ^muy  ^poa
+
+nhun  ^vom  toai  roam  luyn  ^quo  ^xau  meng  ^riu  peng  khin  quoi  xuyn
+
+noen  moan  deng  guyn  xoen  ^dui  triu  gium  goay  roan  ^uyn  goan  ^poi
+
+ginh  ghiu  ^peo  quao  ^dum  ^biu  nhui  ^gau  quim  pinh  nhuy  ^pem  ^xon
+
+^nuy  tria  ^puy  ^vem  troa  soai  ^phy  ^mim  veng  ^chy  goai  khim  ngom
+
+quem  quin  toen  noan  ghin  luya  ^xoe  neng  duyn  ghia  loem  buyn  ^vau
+
+ngum  loam  ^khy  ^oen  ^vum  moai  muya  toem  doen  doai  troe  boao  suya
+
+roai  ^oeo  huyu  quyu  phem  phoa  ^oao  toam  ^uya  huya  pung  quon  tuyu
+
+^oam  phoe  roay  loen  trem  xuya  roen  voam  cuya  poan  ^vuy  vuya  poen
+
+boen  quiu  ^goe  puya  noao  ^uyu  boan  voai  noai  nhia  noeo  muyn  voay
+
+hoam  doem  ^oay  quau  buya  moem  cho  khi  tin  cao  gia  sau  mua  con  qua
+
+hay  nay  quy  bao  anh  ban  chi  tay  xem  thu  hai  thi  sao  com  khu  hoa
+
+rao  ^an  nam  tra  vui  xin  nhu  lao  may  nha  bay  ghi  ^du  the  tai  duy
+
+^in  kim  ^xe  ^ba  ^do  tim  vai  sai  suy  cam  lai  lam  vay  soi  phi  coi
+
+cha  can  kho  tuy  ^em  kia  kem  pha  rau  huy  lan  ^la  che  tri  ung  pin
+
+non  gan  mai  tan  ^di  ^ma  dao  chu  san  xay  vua  phu  ^ca  van  ^ta  nhi
+
+^ai  ^ty  mau  ^da  loa  ^sa  ong  sim  tam  ^vi  noi  ^so  ^uy  lau  ^hy  men
+
+^tu  keo  tre  heo  son  tha  ^by  say  sen  bia  cau  ^ly  tho  ^no  tro  hao
+
+cay  tia  tem  cai  khe  ^my  leo  dai  seo  nho  ven  ^ra  ^xu  dau  moi  ^na
+
+ham  ^co  ^hi  gai  qui  gam  tau  voi  tao  len  ^to  hom  hoi  xoa  dan  man
+
+ngu  ^ni  ^bi  ^mi  mon  doi  bom  gay  ^su  gom  nan  bai  day  ^le  nai  xen
+
+nao  rom  que  ^vu  lui  oan  ^xa  tui  run  ^xi  ^ho  ^pa  phe  pho  ^vy  xao
+
+^go  ^de  ^ha  ren  ^on  ^ga  ray  mao  ben  han  ^me  nen  ^cu  min  nem  tum
+
+lay  ^lo  xui  ^ia  nga  gon  lon  tru  hen  ^si  den  via  toi  don  toa  neo
+
+loi  ^bo  ^mu  ghe  ^am  ^li  ^ki  ^gi  roi  gio  oai  gao  vao  goi  dam  dia
+
+^be  lia  ten  boi  hon  ria  teo  vun  lim  kha  ^ti  ^re  mui  bon  sum  sin
+
+liu  bin  nom  ^pi  reo  lem  ^lu  von  vin  lua  ^he  nhe  hau  dem  sam  ^ao
+
+^ke  ^pu  ram  sui  hiu  nua  hun  ton  niu  ran  ron  mem  ^eo  rum  veo  sun
+
+meo  xiu  ^va  ^en  ^im  ^vo  him  ^mo  mun  try  inh  rua  ^ky  ^se  pay  bam
+
+ngo  ^hu  ^xo  ^ve  bau  ruy  ^bu  num  buy  ^un  tom  ^nu  ^ru  mom  ^ri  nin
+
+^ro  rim  nau  gui  ^oa  lun  ^po  bua  beo  mam  ^au  ^om  ken  bun  pen  som
+
+^pe  ^gu  bim  ang  xum  guy  rai  kin  loe  riu  nui  deo  hoe  lum  ^ui  rui
+
+rem  bui  xam  cui  cun  xoe  ^te  doa  tiu  lin  toe  ^dy  giu  dim  dom  ^ny
+
+hui  ^xy  xau  hem  pan  hum  rin  ^ne  xan  siu  hia  boa  lom  xim  miu  sem
+
+dui  cum  xoi  mia  nia  xom  gau  oen  oay  uyn  oao  oam  kiu  gum  xuy  gun
+
+bum  luy  gin  eng  xeo  thy  uya  soa  xia  ^iu  din  ^oi  oem  ^sy  dun  roa
+
+diu  pao  voa  ^um  xai  moa  gim  xon  noa  pim  pon  vom  xun  hin  dum  tun
+
+ghy  vam  quo  vim  mum  goa  ^ry  nuy  ^ay  pem  moe  noe  gie  ^py  nim  mim
+
+pai  bem  pom  viu  muy  ^oe  sia  biu  nun  chy  piu  pun  pam  vau  poe  phy
+
+puy  poi  pia  pua  poa  pau  pum  vem  doe  oeo  roe  nhy  khy  uyu  boe  goe
+
+soe  pui  vum  peo  voe  vuy  ra  xe  ta  ty  do  em  an  da  vi  du  in  ^a
+
+uy  ai  so  di  to  ba  ca  xa  ^y  co  lo  ly  tu  on  ^i  xu  by  ^e  la  ha
+
+ma  bi  su  ^u  ro  va  ho  xi  hy  ga  my  de  sa  mi  be  ao  gi  am  ^o  cu
+
+no  re  bo  me  vu  ve  xo  hi  ti  im  li  ni  le  si  vo  se  ke  na  go  he
+
+eo  en  mu  ky  ru  au  ri  mo  nu  te  ki  gu  bu  oi  lu  xy  pe  hu  ia  ua
+
+om  pa  pu  un  pi  ne  vy  um  ay  ui  oa  ny  po  iu  dy  sy  py  oe  ry  u
+
+y  a  e  i  o  
