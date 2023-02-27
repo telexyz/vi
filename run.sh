@@ -23,3 +23,13 @@
 # sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_79.jsonl > vi_meta_part_79.txt
 # sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_86.jsonl > vi_meta_part_86.txt
 # sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_99.jsonl > vi_meta_part_99.txt
+
+rm -rf data
+mkdir -p data
+touch data/00__TYPE_COUNT_______
+touch data/10__TYPE_LISTING_____
+touch data/20__N-GRAMS__________
+touch data/30__ABNORMAL_________
+touch data/40___________________
+
+telexify all.txt all.utf8 utf8 ngram
