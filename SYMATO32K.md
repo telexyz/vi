@@ -1,4 +1,0 @@
-- `255` bytes
-- `~3k` sym + marktone
-- `16k` syllables
-- `32k` bi-grams
