@@ -7,6 +7,9 @@
 - Làm thế nào để lọc ra văn bản vừa "tốt" vừa "đa dạng" từ nhiều nguồn?
   - Cân bằng về số lượng tokens giữa các categories?
 
+- Crawl dữ liệu nên đi theo từng website và có bộ parser riêng cho web đó để lọc nội dung chuẩn ngay từ đầu, tránh bị lẫn sạn
+- Chú ý những websites có mobile apps, thường họ sẽ làm APIs để cung cấp dữ liệu chuẩn (json) cho apps, nếu bắt được dữ liệu từ APIs thì sẽ chuẩn nhất không phải viết parser để clean.
+
 - - -
 
 TODOs
@@ -40,8 +43,6 @@ TODOs
 
 
 RESEARCH
-
-- [ ] Tìm hiểu https://oscar-project.org, datasets và pipeline của họ rất tốt !!!
 
 - [ ] Chọn dữ liệu tương đồng với 1 tập dữ liệu đã có
   - [ ] Dùng [dsir](https://github.com/p-lambda/dsir) để lọc news có liên quan tới pháp luật
