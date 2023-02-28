@@ -36,22 +36,21 @@
 # sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_92.jsonl > vi_meta_part_92.txt
 # cat vi*.txt > 02102232425260728292.txt
 
-sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_5.jsonl  > vi0.txt
-sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_15.jsonl > vi1.txt
-sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_25.jsonl > vi2.txt
-sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_30.jsonl > vi3.txt
-sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_45.jsonl > vi4.txt
-sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_55.jsonl > vi5.txt
-sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_65.jsonl > vi6.txt
-sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_75.jsonl > vi7.txt
-sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_85.jsonl > vi8.txt
-sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_95.jsonl > vi9.txt
-cat vi*.txt > 05152530455565758595.txt
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_6.jsonl  > vi0.txt
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_16.jsonl > vi1.txt
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_20.jsonl > vi2.txt
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_36.jsonl > vi3.txt
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_46.jsonl > vi4.txt
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_56.jsonl > vi5.txt
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_66.jsonl > vi6.txt
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_76.jsonl > vi7.txt
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_80.jsonl > vi8.txt
+sed -e 's|.*content\"\:\"\([^"]*\).*|\1|' vi_meta_part_96.jsonl > vi9.txt
+cat vi*.txt > 06162036465666768096.txt
 
 # ./telexify 01122635465162798699.txt 01122635465162798699.utf8 utf8
 # ./telexify 02102232425260728292.txt 02102232425260728292.utf8 utf8
-# ./telexify 03132333435363738393.txt 03132333435363738393.uf8 utf8
-# ./telexify 04142434445464748494.txt 04142434445464748494.utf8 utf8
+./telexify 06162036465666768096.txt 06162036465666768096.uf8 utf8
 
 # rm -rf data
 # mkdir -p data
