@@ -34,19 +34,21 @@ TODOs
     - Paragraphs: max 5370, min 1, avg 42.
   - Xem thống kê chi tiết trên 10GB [tại đây](https://github.com/telexyz/vi/tree/main/symato/oscar-vi-10gb-stats)
 
-- [ ] Văn bản pháp luật https://huggingface.co/datasets/th1nhng0/vietnamese_legal_corpus (6G raw text)
-  - [ ] Format lại dữ liệu để mỗi văn bản nằm trên 1 dòng text
-  - [ ] Convert to .utf8
+- [x] Văn bản pháp luật https://huggingface.co/datasets/th1nhng0/vietnamese_legal_corpus (6G raw text)
+  - https://huggingface.co/datasets/tiendung/vi500/blob/main/thinh-laws.utf8.7z
 
-- [ ] Wikipedia
+- [x] Wikipedia
   - https://dumps.wikimedia.org/viwiki (1GB nén, raw, download trực tiếp)
-  - https://huggingface.co/datasets/truongpdd/viwiki-dummy (240MB, cần kiểm tra chất lượng)
   - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB, có thể bị cắt nhỏ, cần kiểm tra)
-  - [ ] Chọn 1 nguồn phù hợp
-  - [ ] Format lại dữ liệu để mỗi văn bản nằm trên 1 dòng text
-  - [ ] Convert to .utf8
-
+    - Found 129608 documents in roots-wikipedia-vi.parquet:
+      - Characters: max 202906, min 196, avg 2873.
+      - Est Tokens: max 45855, min 22, avg 622.
+      - Paragraphs: max 801, min 3, avg 16.
+  - https://huggingface.co/datasets/tiendung/vi500/blob/main/roots-wikipedia-vi.utf8.7z
+  
+  
 - - -
+
 
 __Tokenization và chuẩn bị huấn luyện__
 
