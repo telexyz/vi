@@ -28,9 +28,9 @@ TODOs
 
 - [x] Thống kê dữ liệu OSCAR vi, bao nhiêu docs, thể loại, độ dài ngắn, số lượng âm tiết / doc, độ phủ tiếng Việt ...
   - Lấy mẫu 1/10 dữ liệu, lọc ra được khoảng 5G text, và thống kê:
-    - Found 956751 documents,
-    - Characters: max 6160173, min 1, avg 4475.
-    - Est Tokens: max 153393, min 1, avg 946.
+    - Found 956_751 documents,
+    - Characters: max 6_160_173, min 1, avg 4475.
+    - Est Tokens: max 153_393, min 1, avg 946.
     - Paragraphs: max 5370, min 1, avg 42.
   - Xem thống kê chi tiết trên 10GB [tại đây](https://github.com/telexyz/vi/tree/main/symato/oscar-vi-10gb-stats)
 
@@ -38,17 +38,23 @@ TODOs
   - https://huggingface.co/datasets/tiendung/vi500/blob/main/thinh-laws.utf8.7z
 
 - [x] Wikipedia
-  - https://dumps.wikimedia.org/viwiki (1GB nén, raw, download trực tiếp)
-  - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB, có thể bị cắt nhỏ, cần kiểm tra)
-    - Found 129608 documents in roots-wikipedia-vi.parquet:
-      - Characters: max 202906, min 196, avg 2873.
+  - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB)
+    - Found 129_608 documents in roots-wikipedia-vi.parquet:
+      - Characters: max 202_906, min 196, avg 2873.
       - Est Tokens: max 45855, min 22, avg 622.
       - Paragraphs: max 801, min 3, avg 16.
   - https://huggingface.co/datasets/tiendung/vi500/blob/main/roots-wikipedia-vi.utf8.7z
-  
-  
-- - -
 
+
+- [ ] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (~70GB đã lọc)
+
+
+- [ ] Các dữ liệu sắp xuất bản
+  - Lọc `vi` từ https://github.com/CarperAI/pilev2 (chuẩn bị public)
+  - Lọc `vi` từ https://github.com/EleutherAI/polyglot#polyglot-east-asian-wip (chuẩn bị public)
+
+
+- - -
 
 __Tokenization và chuẩn bị huấn luyện__
 
@@ -102,7 +108,6 @@ RESEARCH
 - https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
 - https://github.com/facebookresearch/fastText word embedding & text classifier
 
-
 # Cần cào thêm
 - [ ] Sách
   - Chưa có nguồn
@@ -119,13 +124,8 @@ RESEARCH
 
 - - -
 
-- [x] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB đã lọc (theo tác giả))
-  - OSCAR đã bao gồm cả news nên có thể bỏ quan news datasets khác 
-  - Nên phân rã và cân đối theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
-  - Có thể dùng dsir để lọc theo định hướng
-
 - [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, xxxx-2020, mỗi doc là 1 line?)
-  - Bỏ qua vì chưa đọc lọc. Dùng OSCAR.
+  - Bỏ qua vì chưa được lọc. Dùng OSCAR.
 
 - [x] Truyện, thơ (1.1GB chưa nén, thơ OK + lowercases, truyện bị lẫn news)
   - Không nhiều, thơ thì ngắn, truyện không đặc sắc, có thể bỏ qua
@@ -134,10 +134,3 @@ RESEARCH
   - https://huggingface.co/datasets/bigscience-data/roots_vi_vietnamese_poetry (57MB)
   - https://huggingface.co/datasets/truongpdd/vietnamese_poetry (64MB)
   - https://huggingface.co/datasets/truongpdd/luc-bat (33MB)
-
-- [x] Sưu tầm "dữ liệu" đủ lớn, đủ đa dạng (ngoài tin tức, các dạng khác rất ít)
-  - [x] Nguồn
-    - Lọc từ https://github.com/CarperAI/pilev2 (chuẩn bị public)
-    - Lọc từ https://github.com/EleutherAI/polyglot#polyglot-east-asian-wip (chuẩn bị public)
-    - https://huggingface.co/datasets
-    - https://www.kaggle.com/datasets
