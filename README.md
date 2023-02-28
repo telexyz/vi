@@ -34,19 +34,25 @@ TODOs
     - Paragraphs: max 5370, min 1, avg 42.
   - Xem thống kê chi tiết trên 10GB [tại đây](https://github.com/telexyz/vi/tree/main/symato/oscar-vi-10gb-stats)
 
-- [ ] Lọc một phần dữ liệu để train tokenizer. Note: Với kiểu dữ liệu khác nhau có thể cần cách tokenizer khác nhau cho phù hợp.
+- [ ] Văn bản pháp luật https://huggingface.co/datasets/th1nhng0/vietnamese_legal_corpus (6G raw text)
 
-- [ ] Build symato based trên lowercase syllables, so sánh hiệu năng (khả năng nén) của symato+ vs sentencepiece vs wordpiece
-
-- [ ] Chọn tokenizer phù hợp nhất
-
-- [ ] Tokenize dữ liệu và lưu dưới định dạng binidx
-
-- [ ] Thử huấn luyện trước mô hình 200m params trong lúc chờ phần cứng tốt hơn
-
+- [ ] Wikipedia
+  - https://dumps.wikimedia.org/viwiki (1GB nén, raw, download trực tiếp)
+  - https://huggingface.co/datasets/truongpdd/viwiki-dummy (240MB, cần kiểm tra chất lượng)
+  - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB, có thể bị cắt nhỏ, cần kiểm tra)
 
 - - -
 
+- [ ] Lọc một phần dữ liệu để train tokenizer. Note: Với kiểu dữ liệu khác nhau có thể cần cách tokenizer khác nhau cho phù hợp.
+
+  - [ ] Build symato based trên lowercase syllables, so sánh hiệu năng (khả năng nén) của symato+ vs sentencepiece vs wordpiece
+
+  - [ ] Chọn tokenizer phù hợp nhất
+
+  - [ ] Tokenize dữ liệu và lưu dưới định dạng binidx
+
+
+- - -
 
 RESEARCH
 
@@ -72,12 +78,10 @@ RESEARCH
   - [ ] Cramming paper
   - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
 
-
 - - -
 
-
 # Kịch bản tiền xử lý dữ liệu
-> Cramming paper có nhiều ý tưởng tốt cho limited computing power. `bigscience-workshop` có pipeline tiền xử lý dữ liệu chỉnh chu nhất.
+> Cramming paper có nhiều ý tưởng tốt cho limited computing power.
 
 - https://github.com/JonasGeiping/cramming/tree/main/cramming/data
 - https://github.com/bigscience-workshop/data-preparation
@@ -89,21 +93,8 @@ RESEARCH
 - https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
 - https://github.com/facebookresearch/fastText word embedding & text classifier
 
-# Phân tích tiếng Việt
-- Dữ liệu lấy mẫu https://github.com/telexyz/data
-- Kết quả phân tích https://github.com/telexyz/results
 
-# 500GB ngữ liệu tiếng Việt
-
-- [x] OSCAR [vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc)
-
-- [x] Văn bản pháp luật https://huggingface.co/datasets/th1nhng0/vietnamese_legal_corpus (6G raw text)
-
-- [x] Wikipedia
-  - https://dumps.wikimedia.org/viwiki (1GB nén, raw, download trực tiếp)
-  - https://huggingface.co/datasets/truongpdd/viwiki-dummy (240MB, cần kiểm tra chất lượng)
-  - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB, có thể bị cắt nhỏ, cần kiểm tra)
-
+# Cần cào thêm
 - [ ] Sách
   - Chưa có nguồn
 
@@ -111,36 +102,29 @@ RESEARCH
   - Mới được 6G văn bản luật, cần crawl thêm ...
 
 - [ ] Khác (cần crawl thêm nguồn dữ liệu lớn và đa dạng này)
+  - Bình luận trên các trang báo chí
   - Diễn đàn
   - Mạng xã hội
   - Public chat room
   - ...
 
-
 - - -
-
-
-- [x] C4 [vi](https://huggingface.co/datasets/allenai/c4/tree/main/multilingual) (310GB, lọc từ cc)
-  - Vì cùng lọc từ cc nên dùng OSCAR rồi thì thôi C4?
-
-- [x] NLLB [vi](https://huggingface.co/datasets/allenai/nllb) (19G, dịch giữa các ngôn ngữ)
-  - Có thể trùng với OSCAR và C4 => thôi?
 
 - [x] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (34GB đã lọc (theo tác giả))
   - OSCAR đã bao gồm cả news nên có thể bỏ quan news datasets khác 
   - Nên phân rã và cân đối theo categories (tin tức, khoa học, kiến thức, xã hội, luật pháp ...) và cân đối lại
   - Có thể dùng dsir để lọc theo định hướng
 
-  - [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, xxxx-2020, mỗi doc là 1 line?)
-    - Bỏ qua vì chưa đọc lọc. Dùng OSCAR.
+- [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, xxxx-2020, mỗi doc là 1 line?)
+  - Bỏ qua vì chưa đọc lọc. Dùng OSCAR.
 
-  - [x] Truyện, thơ (1.1GB chưa nén, thơ OK + lowercases, truyện bị lẫn news)
-    - Không nhiều, có thể bỏ qua
-    - https://huggingface.co/datasets/truongpdd/vietnamese_story (480MB)
-    - https://huggingface.co/datasets/truongpdd/vietnamese_poetry_story (538MB)
-    - https://huggingface.co/datasets/bigscience-data/roots_vi_vietnamese_poetry (57MB)
-    - https://huggingface.co/datasets/truongpdd/vietnamese_poetry (64MB)
-    - https://huggingface.co/datasets/truongpdd/luc-bat (33MB)
+- [x] Truyện, thơ (1.1GB chưa nén, thơ OK + lowercases, truyện bị lẫn news)
+  - Không nhiều, thơ thì ngắn, truyện không đặc sắc, có thể bỏ qua
+  - https://huggingface.co/datasets/truongpdd/vietnamese_story (480MB)
+  - https://huggingface.co/datasets/truongpdd/vietnamese_poetry_story (538MB)
+  - https://huggingface.co/datasets/bigscience-data/roots_vi_vietnamese_poetry (57MB)
+  - https://huggingface.co/datasets/truongpdd/vietnamese_poetry (64MB)
+  - https://huggingface.co/datasets/truongpdd/luc-bat (33MB)
 
 - [x] Sưu tầm "dữ liệu" đủ lớn, đủ đa dạng (ngoài tin tức, các dạng khác rất ít)
   - [x] Nguồn
@@ -148,9 +132,3 @@ RESEARCH
     - Lọc từ https://github.com/EleutherAI/polyglot#polyglot-east-asian-wip (chuẩn bị public)
     - https://huggingface.co/datasets
     - https://www.kaggle.com/datasets
-
-
-- - -
-
-
-![](docs/files/vi-pre-processing.png)
