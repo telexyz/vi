@@ -7,26 +7,32 @@
 - Làm thế nào để lọc ra văn bản vừa "tốt" vừa "đa dạng" từ nhiều nguồn?
   - Cân bằng về số lượng tokens giữa các categories?
 
+- - -
+
 - Crawl dữ liệu nên đi theo từng website và có bộ parser riêng cho web đó để lọc nội dung chuẩn ngay từ đầu, tránh bị lẫn sạn
+
 - Chú ý những websites có mobile apps, thường họ sẽ làm APIs để cung cấp dữ liệu chuẩn (json) cho apps, nếu bắt được dữ liệu từ APIs thì sẽ chuẩn nhất không phải viết parser để clean.
 
 - - -
 
 TODOs
 
-- [x] Chọn [OSCAR vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc) làm thử nghiệm với, cần scan qua để xem thể loại nội dung
+- [x] Lọc [OSCAR vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc)
   - Mỗi doc là 1 string của trường `content` trong file `.jsonl`
   - Vẫn còn nhiễu `... 10PHUT Combo 2 của sách 10PHUT Combo 3 của sách 10PHUTCombo của sách 1200 Combo 2 của sách 1200 Combo 3 ..`, cần train classifier ở để lọc quảng cáo hoặc lọc cảm tính theo tỉ lệ uniq syllables / độ dài doc
   - Còn code nhúng `ông Trịnh...\nAugust 3, 2017\n'); var formated_str = arr_splits[i].replace(/\\surl\\(\\'(?!data\\:)/gi, function regex_function(str)` lẫn trong nội dung doc
   - Còn những từ rất dài `KôngIcelandIndonesiaIranIraqIrelandIsraelJamaicaJerseyJordanKazakhstanKenyaKiribatiKuwaitKyrgyzstanLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgLàoLãnh`
-  - Lỗi chính tả, dính từ ...
+  - Đã lọc các docs quá ngắn < 800 tokens và các docs có hàm lượng tiếng Việt thấp
+  - Sample extracted text https://huggingface.co/datasets/tiendung/vi500/blob/main/00112131415061718191.txt.7z
+  - Sample pre-processing https://huggingface.co/datasets/tiendung/vi500/blob/main/00112131415061718191.utf8.7z
 
-- [ ] Thống kê dữ liệu OSCAR vi, bao nhiêu docs, thể loại, độ dài ngắn, số lượng âm tiết / doc, độ phủ tiếng Việt ...
+- [x] Thống kê dữ liệu OSCAR vi, bao nhiêu docs, thể loại, độ dài ngắn, số lượng âm tiết / doc, độ phủ tiếng Việt ...
   - Lấy mẫu 1/10 dữ liệu, lọc ra được khoảng 5G text, và thống kê:
     - Found 956751 documents,
     - Characters: max 6160173, min 1, avg 4475.
     - Est Tokens: max 153393, min 1, avg 946.
     - Paragraphs: max 5370, min 1, avg 42.
+  - Xem thống kê chi tiết trên 10GB [tại đây](https://github.com/telexyz/vi/tree/main/symato/oscar-vi-10gb-stats)
 
 - [ ] Lọc một phần dữ liệu để train tokenizer. Note: Với kiểu dữ liệu khác nhau có thể cần cách tokenizer khác nhau cho phù hợp.
 
