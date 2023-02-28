@@ -35,13 +35,20 @@ TODOs
   - Xem thống kê chi tiết trên 10GB [tại đây](https://github.com/telexyz/vi/tree/main/symato/oscar-vi-10gb-stats)
 
 - [ ] Văn bản pháp luật https://huggingface.co/datasets/th1nhng0/vietnamese_legal_corpus (6G raw text)
+  - [ ] Format lại dữ liệu để mỗi văn bản nằm trên 1 dòng text
+  - [ ] Convert to .utf8
 
 - [ ] Wikipedia
   - https://dumps.wikimedia.org/viwiki (1GB nén, raw, download trực tiếp)
   - https://huggingface.co/datasets/truongpdd/viwiki-dummy (240MB, cần kiểm tra chất lượng)
   - https://huggingface.co/datasets/bigscience-data/roots_vi_wikipedia (257MB, có thể bị cắt nhỏ, cần kiểm tra)
+  - [ ] Chọn 1 nguồn phù hợp
+  - [ ] Format lại dữ liệu để mỗi văn bản nằm trên 1 dòng text
+  - [ ] Convert to .utf8
 
 - - -
+
+__Tokenization và chuẩn bị huấn luyện__
 
 - [ ] Lọc một phần dữ liệu để train tokenizer. Note: Với kiểu dữ liệu khác nhau có thể cần cách tokenizer khác nhau cho phù hợp.
 
