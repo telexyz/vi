@@ -9,9 +9,27 @@
 
 - - -
 
-- Crawl dữ liệu nên đi theo từng website và có bộ parser riêng cho web đó để lọc nội dung chuẩn ngay từ đầu, tránh bị lẫn sạn
+# Cần có hệ thống quản lý dữ liệu văn bản
 
-- Chú ý những websites có mobile apps, thường họ sẽ làm APIs để cung cấp dữ liệu chuẩn (json) cho apps, nếu bắt được dữ liệu từ APIs thì sẽ chuẩn nhất không phải viết parser để clean.
+- Crawl dữ liệu nên đi theo từng website và có bộ parser riêng cho web đó để lọc nội dung chuẩn ngay từ đầu, tránh bị lẫn sạn. Có APIs để cung cấp json/xml cho apps càng tốt.
+
+- Crawl dữ liệu như bot của search engine, quản lý văn bản như quản lý search engine quản lý cơ sở dữ liệu
+
+- Các bài toán quản trị meta data của văn bản:
+  - Đánh số thứ tự (id)
+  - Độ dài văn bản (theo chars, tokens, paragraphs ...)
+  - Full text search indexing
+  - n-gram indexing (2,3-gram)
+  - MinHash (để dedup)
+  - Lưu nguồn văn bản (url)
+  - Lĩnh vực (domains) và phân loại (categories)
+  - Thời gian cập nhật
+
+- Các truy vấn trên CSDL văn bản:
+  - Tìm cho tôi 1000 văn bản có độ dài ngắn nhất
+  - Tìm cho tôi các văn bản có chủ đề "văn hóa"
+  - Thống kê số lượng văn bản theo từng chủ đề
+
 
 - - -
 
