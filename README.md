@@ -64,7 +64,7 @@ TODOs
   - https://huggingface.co/datasets/tiendung/vi500/blob/main/roots-wikipedia-vi.utf8.7z
 
 
-- [ ] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (~70GB đã lọc)
+- [ ] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (~70GB đã dedup)
 
 
 - [ ] Các dữ liệu sắp xuất bản
