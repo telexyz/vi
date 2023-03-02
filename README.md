@@ -20,9 +20,9 @@ TODOs
 
 - [ ] Tokenize dữ liệu và lưu dưới định dạng binidx theo kịch bản lấy mẫu
 
-- [ ] Thử huấn luyện trên 02 GPUs
+- [ ] Huấn luyện trên 02 GPUs
 
-- [ ] Ước lượng thời gian huấn luyện khi chạy thật
+- [ ] Ước lượng thời gian huấn luyện khi chạy mô hình lớn
 
 
 # Huấn luyện mô hình 1.5 tỉ tham số trên ~15 tỉ tokens
