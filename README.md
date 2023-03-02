@@ -1,3 +1,21 @@
+TODOs
+
+__Tokenization và chuẩn bị huấn luyện__
+
+- [x] Lọc một phần dữ liệu để train tokenizer
+
+- [ ] Tknz một phần lawpedia theo symato_2944
+
+- [ ] Xây dựng bộ từ vựng symato_16k
+
+- [ ] So sánh hiệu năng (khả năng nén) giữa symato_16k và sentencepiece_16k
+
+- [ ] Tokenize dữ liệu và lưu dưới định dạng binidx
+
+
+- - -
+
+
 # Mấu chốt
 
 - Làm thế nào để có metrics đánh giá "độ tốt" của văn bản?
@@ -6,8 +24,6 @@
 
 - Làm thế nào để lọc ra văn bản vừa "tốt" vừa "đa dạng" từ nhiều nguồn?
   - Cân bằng về số lượng tokens giữa các categories?
-
-- - -
 
 # Cần có hệ thống quản lý dữ liệu văn bản
 
@@ -33,7 +49,8 @@
 
 - - -
 
-TODOs
+
+DONE
 
 - [x] Lọc [OSCAR vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc)
   - Mỗi doc là 1 string của trường `content` trong file `.jsonl`
@@ -63,29 +80,7 @@ TODOs
       - Paragraphs: max 801, min 3, avg 16.
   - https://huggingface.co/datasets/tiendung/vi500/blob/main/roots-wikipedia-vi.utf8.7z
 
-
 - [x] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (~70GB đã dedup)
-
-
-- [ ] Các dữ liệu sắp xuất bản
-  - Lọc `vi` từ https://github.com/CarperAI/pilev2 (chuẩn bị public)
-  - Lọc `vi` từ https://github.com/EleutherAI/polyglot#polyglot-east-asian-wip (chuẩn bị public)
-
-
-- - -
-
-__Tokenization và chuẩn bị huấn luyện__
-
-- [x] Lọc một phần dữ liệu để train tokenizer
-
-- [ ] Hợp nhất 1-gram, 2-gram từ `lawpedia-5gb` và `oscar-vi-5gb`
-
-- [ ] Chọn top `04-alphmark_freqs`, `05-alph0m0t_freqs` từ `lawpedia-5gb` và `oscar-vi-10gb`
-
-- [ ] Build symato based trên lowercase syllables, so sánh hiệu năng (khả năng nén) với sentencepiece
-
-- [ ] Tokenize dữ liệu và lưu dưới định dạng binidx
-
 
 - - -
 
