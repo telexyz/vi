@@ -1,31 +1,48 @@
 TODOs
 
-__Tokenization và chuẩn bị huấn luyện__
+# Chuẩn bị huấn luyện và các thử nghiệm
 
-- [ ] Chuẩn bị 9G dữ liệu newslawpedia, 8G để train, 1G để test
+- [ ] Chuẩn bị 9G dữ liệu newslaws, 8G để train, 1G để test
+  - Thử nghiệm với mô hình 300m params
+  - Nên lọc các news liên quan tới laws để dữ liệu cùng một domain (dùng bi-gram)
 
-- [ ] Tknz newslawpedia theo symato_2944
+- [ ] Tknz newslaws theo symato_2944
 
 - [ ] Xây dựng bộ từ vựng symato_16k
 
-- [ ] So sánh hiệu năng (khả năng nén) giữa symato_16k và sentencepiece_16k
+- [ ] So sánh hiệu năng (khả năng nén) giữa symato_16k và sentencepiece_16k và sentencepiece_32k
 
-- [ ] Tokenize dữ liệu và lưu dưới định dạng binidx
+- [ ] Huấn luyện 02 mô hình trên symato_16k và sentencepiece_32k và so sánh hiệu năng
+  - Bộ từ vựng lớn hơn sẽ làm giảm số lượng tokens của tập dữ liệu nên cần ít computing hơn
+  - Bộ dữ liệu nhỏ ngược lại, cần nhiều computing hơn để đạt tới cùng loss
+
+- [ ] Lên kịch bản lấy mẫu và quản lý [lấy mẫu huấn luyện](./sampling/README.md)
+
+- [ ] Tokenize dữ liệu và lưu dưới định dạng binidx theo kịch bản lấy mẫu
+
+- [ ] Thử huấn luyện trên 02 GPUs
+
+- [ ] Ước lượng thời gian huấn luyện khi chạy thật
 
 
-## Cần cào thêm
-- [ ] Sách
-  - Chưa có nguồn
+# Huấn luyện mô hình 1.5 tỉ tham số trên ~15 tỉ tokens
 
+Huấn luyện trên 4 GPUs A100 40G vram
+
+
+## Cần tìm thêm
 - [ ] Văn bản chính quy
-  - Mới được 6G văn bản luật, cần crawl thêm ...
+  - Đã có 6G văn bản luật từ Thịnh
 
-- [ ] Khác (cần crawl thêm nguồn dữ liệu lớn và đa dạng này)
+- [ ] Tương tác đa chiều (lớn, đa dạng, giàu thông tin, dễ làm ứng dụng)
   - Bình luận trên các trang báo chí
   - Diễn đàn
   - Mạng xã hội
   - Public chat room
   - ...
+
+- [ ] Sách
+  - Chưa có nguồn
 
 
 - - -
@@ -39,6 +56,7 @@ __Tokenization và chuẩn bị huấn luyện__
 
 - Làm thế nào để lọc ra văn bản vừa "tốt" vừa "đa dạng" từ nhiều nguồn?
   - Cân bằng về số lượng tokens giữa các categories?
+
 
 ## Cần có hệ thống quản lý dữ liệu văn bản
 
