@@ -13,7 +13,7 @@ __Tokenization và chuẩn bị huấn luyện__
 - [ ] Tokenize dữ liệu và lưu dưới định dạng binidx
 
 
-# Cần cào thêm
+## Cần cào thêm
 - [ ] Sách
   - Chưa có nguồn
 
@@ -40,7 +40,7 @@ __Tokenization và chuẩn bị huấn luyện__
 - Làm thế nào để lọc ra văn bản vừa "tốt" vừa "đa dạng" từ nhiều nguồn?
   - Cân bằng về số lượng tokens giữa các categories?
 
-# Cần có hệ thống quản lý dữ liệu văn bản
+## Cần có hệ thống quản lý dữ liệu văn bản
 
 - Crawl dữ liệu nên đi theo từng website và có bộ parser riêng cho web đó để lọc nội dung chuẩn ngay từ đầu, tránh bị lẫn sạn. Có APIs để cung cấp json/xml cho apps càng tốt.
 
@@ -63,7 +63,7 @@ __Tokenization và chuẩn bị huấn luyện__
 
 - - -
 
-# Công cụ mạnh để xử lý ngữ liệu lớn
+## Công cụ mạnh để xử lý ngữ liệu lớn
 - https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
 - https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
 - https://github.com/facebookresearch/fastText word embedding & text classifier
