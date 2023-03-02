@@ -46,9 +46,56 @@ Sau đó họ cải tiến bằng cách sắp xếp tokenized seqs theo 1 thứ 
 
 ![](files/cramming-01.jpg)
 
-=> Cần kiểm tra code để xem cách họ thược hiện củ thể từng tricks https://github.com/JonasGeiping/cramming/tree/main/cramming/data
+=> Cần kiểm tra code từng tricks https://github.com/JonasGeiping/cramming/tree/main/cramming/data
+
+- - -
+
+https://medium.com/geekculture/paper-dive-cramming-training-a-language-model-on-a-single-gpu-in-one-day-7965f47f7e8d
+
+- The maximum sequence length was limited to 128, due to memory constraints, as such any additional optimizations, like sparse attentions would not have helped.
+- The `<cls>` token did not help
+- Only __one epoch__, the training data was too large to have multiple passes, as such overfitting was not an issue
+
+Training
+- Optimizer: Adam with weight decay of 0.01, β1 = 0.9, β2 = 0.98
+- Gradient clipping at a clip value of 0.5
+- One-cycle learning rate scheduler
+- Gradient accumulation with optimal batch size between 1536–4032 and micro-batch of 96
+- No dropout
+- Original BERT 32768 vocabulary size
+- For fine-tuning: the batch size of 16 and learning rate of 4 × 10−5 with cosine decay, 5 epochs.
+
+- - -
+
+BERT ONE DAY ONE GPU
+
+https://twitter.com/giffmana/status/1608568396496646147
+
+4/N Data: en
+- Short seq and packing with `<sep>`. I like simple!
+- `<cls>` token unnecessary; we found the same with ViT
+- Use large batches by acc grads across μbatches
+- 1-epoch @arankomatsuzaki
+
+6a/N training
+- Stick to the simplest MLM objective
+- Optimizer: Adam. No win from fancier.
+- I want to point out that AdaFactor is meant to save memory but behave like Adam, so no win is a win!
+- They mention no win from Shampoo @_arohan_ but aren't confident it's a good impl.
+
+@_arohan_: I also checked the code and found an issue. Epsilon used is 1e-12, the matrix inverse pth root method doesnt seem to scale by that max eigen value. If you had the latter, f32 numerics best we can do is 1e-6 (overton rule) rest will fail. Without relative epsilon, need f64. Inverses do often fail to converge, and special handling needs to be done otherwise updates will cause havoc to training trajectory.
+
+
+https://twitter.com/jonasgeiping/status/1611382345369616386
+
+
 
 - - -
 
 https://github.com/JonasGeiping/cramming/blob/main/cramming/data/curriculum_sorting.py
-- sắp xếp dataset theo unigram dist
+- sắp xếp dataset theo unigram distribution (huấn luyện mẫu phổ thông trước?)
+
+Tự download dữ liệu và huấn luyện mô hình 100 triệu tham số
+```sh
+python pretrain.py name=bert data=bookcorpus-wikipedia arch=bert-original train=bert-original
+```
