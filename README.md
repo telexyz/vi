@@ -1,27 +1,21 @@
 # Chuẩn bị huấn luyện và các thử nghiệm
 
-- [ ] Chuẩn bị 9G dữ liệu newslaws, 8G để train, 1G để test
-  - Thử nghiệm với mô hình 300m params
-  - Nên lọc các news liên quan tới laws để dữ liệu cùng một domain (dùng bi-gram)
-
-- [ ] Tknz newslaws theo symato_2944
+- [ ] Chuẩn bị 9G dữ liệu tương tác từ vnexpress, 8G để train, 1G để test
+  - Thử nghiệm với mô hình ít nhất 300m params
 
 - [ ] Xây dựng bộ từ vựng symato_16k
 
-- [ ] So sánh hiệu năng (khả năng nén) giữa symato_16k và sentencepiece_16k và sentencepiece_32k
-
-- [ ] Huấn luyện 02 mô hình trên symato_16k và sentencepiece_32k và so sánh hiệu năng
-  - Bộ từ vựng lớn hơn sẽ làm giảm số lượng tokens của tập dữ liệu nên cần ít computing hơn
-  - Bộ dữ liệu nhỏ ngược lại, cần nhiều computing hơn để đạt tới cùng loss
+- [ ] So sánh hiệu năng (khả năng nén) giữa symato_16k và sentencepiece_16k
 
 - [ ] Lên kịch bản lấy mẫu và quản lý [lấy mẫu huấn luyện](./sampling/README.md)
 
 - [ ] Tokenize dữ liệu và lưu dưới định dạng binidx theo kịch bản lấy mẫu
+  - [ ] Tknz theo symato_2944
+  - [ ] Tknz theo symato_16k
 
-- [ ] Huấn luyện trên 02 GPUs
-
-- [ ] Ước lượng thời gian huấn luyện khi chạy mô hình lớn
-
+- [ ] Đưa vào huấn luyện và ước lượng thời gian huấn luyện khi chạy mô hình lớn hơn
+  - Huấn luyện 2 mô hìnhtheo 2 cách tknz khác nhau, so sánh kết quả
+  - Huấn luyện một mô hình trên cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
 
 # Huấn luyện mô hình 1.5 tỉ tham số trên ~15 tỉ tokens
 . . .
