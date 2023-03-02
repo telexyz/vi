@@ -13,6 +13,21 @@ __Tokenization và chuẩn bị huấn luyện__
 - [ ] Tokenize dữ liệu và lưu dưới định dạng binidx
 
 
+# Cần cào thêm
+- [ ] Sách
+  - Chưa có nguồn
+
+- [ ] Văn bản chính quy
+  - Mới được 6G văn bản luật, cần crawl thêm ...
+
+- [ ] Khác (cần crawl thêm nguồn dữ liệu lớn và đa dạng này)
+  - Bình luận trên các trang báo chí
+  - Diễn đàn
+  - Mạng xã hội
+  - Public chat room
+  - ...
+
+
 - - -
 
 
@@ -108,34 +123,10 @@ RESEARCH
   - [ ] Cramming paper
   - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
 
-- - -
-
-# Kịch bản tiền xử lý dữ liệu
-> Cramming paper có nhiều ý tưởng tốt cho limited computing power.
-
-- https://github.com/JonasGeiping/cramming/tree/main/cramming/data
-- https://github.com/bigscience-workshop/data-preparation
-- https://github.com/bigscience-workshop/data_tooling
-![](https://raw.githubusercontent.com/bigscience-workshop/data-preparation/main/roots_pipeline.png)
-
 # Công cụ mạnh để xử lý ngữ liệu lớn
 - https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
 - https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
 - https://github.com/facebookresearch/fastText word embedding & text classifier
-
-# Cần cào thêm
-- [ ] Sách
-  - Chưa có nguồn
-
-- [ ] Văn bản chính quy
-  - Mới được 6G văn bản luật, cần crawl thêm ...
-
-- [ ] Khác (cần crawl thêm nguồn dữ liệu lớn và đa dạng này)
-  - Bình luận trên các trang báo chí
-  - Diễn đàn
-  - Mạng xã hội
-  - Public chat room
-  - ...
 
 - - -
 
