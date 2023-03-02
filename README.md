@@ -61,6 +61,38 @@ __Tokenization và chuẩn bị huấn luyện__
   - Tìm cho tôi các văn bản có chủ đề "văn hóa"
   - Thống kê số lượng văn bản theo từng chủ đề
 
+- - -
+
+# Công cụ mạnh để xử lý ngữ liệu lớn
+- https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
+- https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
+- https://github.com/facebookresearch/fastText word embedding & text classifier
+
+RESEARCH
+
+- [ ] Chọn dữ liệu tương đồng với 1 tập dữ liệu đã có
+  - [ ] Dùng [dsir](https://github.com/p-lambda/dsir) để lọc news có liên quan tới pháp luật
+
+- [ ] Loại bỏ dữ liệu kém
+  - [ ] lọc theo tỉ lệ âm tiết, chất lượng âm tiết ...
+    - Điều chỉnh code của `engine`
+  - [x] Các thuật toán dedup
+    - [x] minhash
+    - [x] SuffixArray Substring
+    - [ ] Áp dụng minhash, suffix-array vào âm tiết TV (sau khi đã đánh số = u16)
+  - Tham khảo
+    - https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
+    - https://github.com/CarperAI/squeakily
+
+- [ ] Cân bằng giữa các loại dữ liệu
+  - [ ] Xem https://stanford-cs324.github.io/winter2022/lectures/data
+  - [ ] Xem [unimax](./docs/unimax.md)
+
+- [ ] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
+  - [ ] Cramming paper
+  - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
+
+
 
 - - -
 
@@ -96,35 +128,3 @@ DONE
   - https://huggingface.co/datasets/tiendung/vi500/blob/main/roots-wikipedia-vi.utf8.7z
 
 - [x] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (~70GB đã dedup)
-
-
-- - -
-
-# Công cụ mạnh để xử lý ngữ liệu lớn
-- https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
-- https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
-- https://github.com/facebookresearch/fastText word embedding & text classifier
-
-RESEARCH
-
-- [ ] Chọn dữ liệu tương đồng với 1 tập dữ liệu đã có
-  - [ ] Dùng [dsir](https://github.com/p-lambda/dsir) để lọc news có liên quan tới pháp luật
-
-- [ ] Loại bỏ dữ liệu kém
-  - [ ] lọc theo tỉ lệ âm tiết, chất lượng âm tiết ...
-    - Điều chỉnh code của `engine`
-  - [x] Các thuật toán dedup
-    - [x] minhash
-    - [x] SuffixArray Substring
-    - [ ] Áp dụng minhash, suffix-array vào âm tiết TV (sau khi đã đánh số = u16)
-  - Tham khảo
-    - https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
-    - https://github.com/CarperAI/squeakily
-
-- [ ] Cân bằng giữa các loại dữ liệu
-  - [ ] Xem https://stanford-cs324.github.io/winter2022/lectures/data
-  - [ ] Xem [unimax](./docs/unimax.md)
-
-- [ ] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
-  - [ ] Cramming paper
-  - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
