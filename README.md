@@ -97,7 +97,13 @@ DONE
 
 - [x] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (~70GB đã dedup)
 
+
 - - -
+
+# Công cụ mạnh để xử lý ngữ liệu lớn
+- https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
+- https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
+- https://github.com/facebookresearch/fastText word embedding & text classifier
 
 RESEARCH
 
@@ -122,21 +128,3 @@ RESEARCH
 - [ ] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
   - [ ] Cramming paper
   - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
-
-# Công cụ mạnh để xử lý ngữ liệu lớn
-- https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
-- https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
-- https://github.com/facebookresearch/fastText word embedding & text classifier
-
-- - -
-
-- [x] cc-100 [vi](https://data.statmt.org/cc-100/vi.txt.xz) (166G, 1 file text, xxxx-2020, mỗi doc là 1 line?)
-  - Bỏ qua vì chưa được lọc. Dùng OSCAR.
-
-- [x] Truyện, thơ (1.1GB chưa nén, thơ OK + lowercases, truyện bị lẫn news)
-  - Không nhiều, thơ thì ngắn, truyện không đặc sắc, có thể bỏ qua
-  - https://huggingface.co/datasets/truongpdd/vietnamese_story (480MB)
-  - https://huggingface.co/datasets/truongpdd/vietnamese_poetry_story (538MB)
-  - https://huggingface.co/datasets/bigscience-data/roots_vi_vietnamese_poetry (57MB)
-  - https://huggingface.co/datasets/truongpdd/vietnamese_poetry (64MB)
-  - https://huggingface.co/datasets/truongpdd/luc-bat (33MB)
