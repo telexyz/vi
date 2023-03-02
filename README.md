@@ -64,7 +64,7 @@ TODOs
   - https://huggingface.co/datasets/tiendung/vi500/blob/main/roots-wikipedia-vi.utf8.7z
 
 
-- [ ] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (~70GB đã dedup)
+- [x] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (~70GB đã dedup)
 
 
 - [ ] Các dữ liệu sắp xuất bản
@@ -76,13 +76,15 @@ TODOs
 
 __Tokenization và chuẩn bị huấn luyện__
 
-- [ ] Lọc một phần dữ liệu để train tokenizer. Note: Với kiểu dữ liệu khác nhau có thể cần cách tokenizer khác nhau cho phù hợp.
+- [x] Lọc một phần dữ liệu để train tokenizer
 
-  - [ ] Build symato based trên lowercase syllables, so sánh hiệu năng (khả năng nén) của symato+ vs sentencepiece vs wordpiece
+- [ ] Hợp nhất 1-gram, 2-gram từ `lawpedia-5gb` và `oscar-vi-5gb`
 
-  - [ ] Chọn tokenizer phù hợp nhất
+- [ ] Chọn top `04-alphmark_freqs`, `05-alph0m0t_freqs` từ `lawpedia-5gb` và `oscar-vi-10gb`
 
-  - [ ] Tokenize dữ liệu và lưu dưới định dạng binidx
+- [ ] Build symato based trên lowercase syllables, so sánh hiệu năng (khả năng nén) với sentencepiece
+
+- [ ] Tokenize dữ liệu và lưu dưới định dạng binidx
 
 
 - - -
