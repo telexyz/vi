@@ -1,5 +1,3 @@
-TODOs
-
 # Chuẩn bị huấn luyện và các thử nghiệm
 
 - [ ] Chuẩn bị 9G dữ liệu newslaws, 8G để train, 1G để test
@@ -26,9 +24,7 @@ TODOs
 
 
 # Huấn luyện mô hình 1.5 tỉ tham số trên ~15 tỉ tokens
-
-Huấn luyện trên 4 GPUs A100 40G vram
-
+. . .
 
 ## Cần tìm thêm
 - [ ] Văn bản chính quy
