@@ -2,9 +2,9 @@ TODOs
 
 __Tokenization và chuẩn bị huấn luyện__
 
-- [x] Lọc một phần dữ liệu để train tokenizer
+- [ ] Chuẩn bị 9G dữ liệu newslawpedia, 8G để train, 1G để test
 
-- [ ] Tknz một phần lawpedia theo symato_2944
+- [ ] Tknz newslawpedia theo symato_2944
 
 - [ ] Xây dựng bộ từ vựng symato_16k
 
