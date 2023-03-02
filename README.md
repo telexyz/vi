@@ -58,8 +58,8 @@ DONE
   - Còn code nhúng `ông Trịnh...\nAugust 3, 2017\n'); var formated_str = arr_splits[i].replace(/\\surl\\(\\'(?!data\\:)/gi, function regex_function(str)` lẫn trong nội dung doc
   - Còn những từ rất dài `KôngIcelandIndonesiaIranIraqIrelandIsraelJamaicaJerseyJordanKazakhstanKenyaKiribatiKuwaitKyrgyzstanLatviaLebanonLesothoLiberiaLibyaLiechtensteinLithuaniaLuxembourgLàoLãnh`
   - Đã lọc các docs quá ngắn < 800 tokens và các docs có hàm lượng tiếng Việt thấp
-  - Sample extracted text https://huggingface.co/datasets/tiendung/vi500/blob/main/00112131415061718191.txt.7z
-  - Sample pre-processing https://huggingface.co/datasets/tiendung/vi500/blob/main/00112131415061718191.utf8.7z
+  - [Sample extracted text](https://huggingface.co/datasets/tiendung/vi500/blob/main/00112131415061718191.txt.7z)
+  - [Sample pre-processing](https://huggingface.co/datasets/tiendung/vi500/blob/main/00112131415061718191.utf8.7z)
 
 - [x] Thống kê dữ liệu OSCAR vi, bao nhiêu docs, thể loại, độ dài ngắn, số lượng âm tiết / doc, độ phủ tiếng Việt ...
   - Lấy mẫu 1/10 dữ liệu, lọc ra được khoảng 5G text, và thống kê:
