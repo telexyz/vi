@@ -1,6 +1,6 @@
 # Chuẩn bị huấn luyện và các thử nghiệm
 
-- [ ] Chuẩn bị 9G dữ liệu tương tác từ vnexpress, 8G để train, 1G để test
+- [ ] Chuẩn bị 6G dữ liệu tương tác từ vnexpress, 5G để train, 1G để test
   - Thử nghiệm với mô hình ít nhất 300m params
 
 - [ ] Xây dựng bộ từ vựng symato_16k
