@@ -11,10 +11,11 @@
 
 TODOs
 
-- [ ] Tìm hiểu cách lấy mẫu của [cramming](https://github.com/JonasGeiping/cramming)
-
-- [ ] Tìm hiểu cách lấy mẫu của [rwkv_the_pile](https://github.com/BlinkDL/RWKV-LM/blob/main/RWKV-v4neo/src/dataset.py)
+- [x] Tìm hiểu cách lấy mẫu của [cramming](https://github.com/JonasGeiping/cramming)
+  - Chọn mẫu tốt train trước
+  - Trải các mẫu trên một pipeline, cách nhau bởi `<sep>` token
+  - Chạy một lượt từ đầu tới cuối cửa sổ dịch chuyển là ctx_len (1-epoch: mỗi token chỉ train 1 lần)
 
 - [ ] Tìm hiểu cách lấy mẫu của [gpt-neox](https://github.com/EleutherAI/gpt-neox)
 
-- [ ] Tìm hiểu cách lấy mẫu của [nanogpt](https://github.com/karpathy/nanoGPT)
+- [ ] Tìm hiểu cách lấy mẫu của [rwkv_the_pile](https://github.com/BlinkDL/RWKV-LM/blob/main/RWKV-v4neo/src/dataset.py)
