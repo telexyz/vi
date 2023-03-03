@@ -82,8 +82,7 @@ RESEARCH
   - [ ] Dùng [dsir](https://github.com/p-lambda/dsir) để lọc news có liên quan tới pháp luật
 
 - [ ] Loại bỏ dữ liệu kém
-  - [ ] lọc theo tỉ lệ âm tiết, chất lượng âm tiết ...
-    - Điều chỉnh code của `engine`
+  - [x] lọc theo tỉ lệ âm tiết và độ dài văn bản
   - [x] Các thuật toán dedup
     - [x] minhash
     - [x] SuffixArray Substring
@@ -91,19 +90,17 @@ RESEARCH
   - Tham khảo
     - https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
     - https://github.com/CarperAI/squeakily
+    - Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
 
 - [ ] Cân bằng giữa các loại dữ liệu
   - [ ] Xem https://stanford-cs324.github.io/winter2022/lectures/data
   - [ ] Xem [unimax](./docs/unimax.md)
 
-- [ ] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
-  - [ ] Cramming paper
-  - [ ] Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
-
+- [x] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
+  - [x] Cramming paper
 
 
 - - -
-
 
 DONE
 
