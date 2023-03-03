@@ -39,3 +39,12 @@ and Books domains, over which we perform approximately two epochs.
 - - -
 
 ![](files/llama-00.jpg)
+
+- - -
+
+https://twitter.com/rasbt/status/1629496763148017665
+
+![](https://pbs.twimg.com/media/Fp0go3IXsAEE017?format=jpg&name=medium)
+
+Cùng số lượng tham số, Llama tốt hơn Flan-T5
+![](https://pbs.twimg.com/media/Fp5dZlNXoAEnGjy?format=jpg&name=medium)
