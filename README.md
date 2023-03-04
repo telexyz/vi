@@ -18,11 +18,11 @@
   - [ ] symato_2944 3 lượt:
     - [x] Lấy mẫu ngẫu nhiên
     - [x] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
-    - [ ] Lặp lại bước trên thay đổi data_shift = ???
+    - [ ] Lặp lại bước trên thay đổi data_shift = 170
   - [ ] symato_16k 3 lượt:
-    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
-    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = ???
-    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = ???
+    - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+    - [-] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 - [ ] Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
 
 ## Huấn luyện mô hình 1.2 tỉ tham số trên ~12 tỉ tokens
