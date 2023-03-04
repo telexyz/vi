@@ -1,29 +1,38 @@
-# Chuẩn bị huấn luyện và các thử nghiệm
+# Chạy trên máy trạm DGX 4 GPU A100 160G vram
 
-- [ ] Chuẩn bị ~6G dữ liệu tương tác từ vnexpress
-  - Để thử nghiệm với mô hình 1.2b params
+## Chuẩn bị huấn luyện và các thử nghiệm
 
-- [ ] Xây dựng bộ từ vựng symato_16k
-- [ ] So sánh hiệu năng (khả năng nén) giữa symato_16k và sentencepiece_16k
+- [x] Chuẩn bị 6GB dữ liệu laws để thử nghiệm với mô hình 1.2 tỉ params
 
-- [x] Lên kịch bản lấy mẫu và 
-- [ ] Quản lý [lấy mẫu huấn luyện](./sampling/README.md)
+- [x] Quản lý [lấy mẫu huấn luyện](./sampling/README.md)
   - [x] Lấy mẫu theo chiều xuôi sao cho mỗi token đc train 1 lần với bigdata
-  - [ ] Lấy mẫu theo chiều ngược để train lượt về
-  - [ ] Thêm khoảng overlap để tùy chỉnh cửa sổ lấy mẫu `window = ctx_len - overlap`
-  - Note: cần tính khoảng overlap hợp lý để mỗi token được xuất hiện đều nhau
-  - Ví dụ: overlap = ctx_len / 2 thì mỗi mẫu sẽ xuất hiện 2 lần trong 1 epoch
+  - [x] Thêm khoảng trượt data_shift để thay đổi cửa sổ lấy mẫu ở lần huấn luyện lặp lại tiếp theo
 
 - [ ] Tokenize dữ liệu và lưu dưới định dạng binidx theo kịch bản lấy mẫu
-  - [x] Tknz theo symato_2944
-  - [ ] Tknz theo symato_16k
+  - [x] Tknz theo symato_2944 (6g text = 2 tỉ tokens)
+  - [ ] Tknz theo symato_16k  (6g text = ?? tỉ tokens)
+  - [ ] So sánh hiệu năng (khả năng nén) giữa symato_16k và sentencepiece_16k
+  
+- [ ] Huấn luyện mô hình
+  - [ ] symato_2944 3 lượt:
+    - [x] Lấy mẫu ngẫu nhiên
+    - [ ] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
+    - [ ] Lặp lại bước trên thay đổi data_shift
+  - [ ] symato_16k 3 lượt
+  - [ ] Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
 
-- [x] Đưa vào huấn luyện và ước lượng thời gian huấn luyện khi chạy mô hình lớn hơn
-- [ ] Huấn luyện 2 mô hình theo 2 cách tknz khác nhau, so sánh kết quả
-- [ ] Huấn luyện một mô hình trên cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
+## Huấn luyện mô hình 1.2 tỉ tham số trên ~12 tỉ tokens
+  - [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
+  - [ ] Tknz dữ liệu với symato_16k
+  - [ ] `shortnews_000_079_symato_16k_text_document` train trước với cxt512 bs24
+  - [ ] `news_030_137_symato_16k_text_document` train sau với cxt768 bs16
+    - Vòng cuối huấn luyện với batch_size lớn nhất có thể
+  - Lưu ý set tham số tỉ trọng dữ liệu cho chuẩn xác để lr giảm hợp lý và không mất quá nhiều time vào pre-train
+  - [ ] Chuẩn bị dữ liệu tương tác từ vnexpress
+  - [ ] Fine-tune với dữ liệu tương tác (khoảng 4-6GB)
+  - [ ] Test perlexity với `truongnews-000-009` trộn với dữ liệu tương tác
 
-# Huấn luyện mô hình 1.2 tỉ tham số trên ~12 tỉ tokens
-. . .
+- - -
 
 ## Cần tìm thêm
 - [ ] Văn bản chính quy
