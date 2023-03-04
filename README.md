@@ -1,23 +1,28 @@
 # Chuẩn bị huấn luyện và các thử nghiệm
 
-- [ ] Chuẩn bị 6G dữ liệu tương tác từ vnexpress, 5G để train, 1G để test
-  - Thử nghiệm với mô hình ít nhất 300m params
+- [ ] Chuẩn bị ~6G dữ liệu tương tác từ vnexpress
+  - Để thử nghiệm với mô hình 1.2b params
 
 - [ ] Xây dựng bộ từ vựng symato_16k
-
 - [ ] So sánh hiệu năng (khả năng nén) giữa symato_16k và sentencepiece_16k
 
-- [ ] Lên kịch bản lấy mẫu và quản lý [lấy mẫu huấn luyện](./sampling/README.md)
+- [x] Lên kịch bản lấy mẫu và 
+- [ ] Quản lý [lấy mẫu huấn luyện](./sampling/README.md)
+  - [x] Lấy mẫu theo chiều xuôi sao cho mỗi token đc train 1 lần với bigdata
+  - [ ] Lấy mẫu theo chiều ngược để train lượt về
+  - [ ] Thêm khoảng overlap để tùy chỉnh cửa sổ lấy mẫu `window = ctx_len - overlap`
+  - Note: cần tính khoảng overlap hợp lý để mỗi token được xuất hiện đều nhau
+  - Ví dụ: overlap = ctx_len / 2 thì mỗi mẫu sẽ xuất hiện 2 lần trong 1 epoch
 
 - [ ] Tokenize dữ liệu và lưu dưới định dạng binidx theo kịch bản lấy mẫu
-  - [ ] Tknz theo symato_2944
+  - [x] Tknz theo symato_2944
   - [ ] Tknz theo symato_16k
 
-- [ ] Đưa vào huấn luyện và ước lượng thời gian huấn luyện khi chạy mô hình lớn hơn
-  - Huấn luyện 2 mô hìnhtheo 2 cách tknz khác nhau, so sánh kết quả
-  - Huấn luyện một mô hình trên cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
+- [x] Đưa vào huấn luyện và ước lượng thời gian huấn luyện khi chạy mô hình lớn hơn
+- [ ] Huấn luyện 2 mô hình theo 2 cách tknz khác nhau, so sánh kết quả
+- [ ] Huấn luyện một mô hình trên cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
 
-# Huấn luyện mô hình 1.5 tỉ tham số trên ~15 tỉ tokens
+# Huấn luyện mô hình 1.2 tỉ tham số trên ~12 tỉ tokens
 . . .
 
 ## Cần tìm thêm
