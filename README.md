@@ -8,18 +8,22 @@
   - [x] Lấy mẫu theo chiều xuôi sao cho mỗi token đc train 1 lần với bigdata
   - [x] Thêm khoảng trượt data_shift để thay đổi cửa sổ lấy mẫu ở lần huấn luyện lặp lại tiếp theo
 
-- [ ] Tokenize dữ liệu và lưu dưới định dạng binidx theo kịch bản lấy mẫu
-  - [x] Tknz theo symato_2944 (6g text = 2 tỉ tokens)
-  - [ ] Tknz theo symato_16k  (6g text = ?? tỉ tokens)
-  - [ ] So sánh hiệu năng (khả năng nén) giữa symato_16k và sentencepiece_16k
+- [x] Tokenize dữ liệu và lưu dưới định dạng binidx theo kịch bản lấy mẫu
+  - [x] Tknz theo symato_2944 (6g text = ~2 tỉ tokens)
+  - [x] Tknz theo symato_16k  (6g text = ~1 tỉ tokens) 
+    - Khả năng nén tương đương sentencepiece_16k (nhỉnh hơn 1 chút) và tập trung nén âm tiết
+    - Cần lưu lý prompt đầu vào có thể làm vỡ bi_gram tknz, cần test kỹ trường hợp này !!!
   
-- [ ] Huấn luyện mô hình
+- [ ] Huấn luyện mô hình với dữ liệu laws:
   - [ ] symato_2944 3 lượt:
     - [x] Lấy mẫu ngẫu nhiên
-    - [ ] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
-    - [ ] Lặp lại bước trên thay đổi data_shift
-  - [ ] symato_16k 3 lượt
-  - [ ] Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
+    - [x] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
+    - [ ] Lặp lại bước trên thay đổi data_shift = ???
+  - [ ] symato_16k 3 lượt:
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = ???
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = ???
+- [ ] Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
 
 ## Huấn luyện mô hình 1.2 tỉ tham số trên ~12 tỉ tokens
   - [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
