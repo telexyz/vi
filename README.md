@@ -11,7 +11,7 @@
   - [x] Tknz theo symato_2944 (~5g filtered text = ~2 tỉ tokens)
   - [x] Tknz theo symato_16k  (~5g filtered text = ~1 tỉ tokens) 
     - Khả năng nén tương đương sentencepiece_16k (nhỉnh hơn 1 chút) và tập trung nén âm tiết
-    - !!! Lưu ý prompt đầu vào có thể làm tknz bi_grams khác trình tự so với lúc train làm giảm độ chính xác !!!
+    - _!!! Lưu ý prompt đầu vào có thể làm tknz bi_grams khác trình tự so với lúc train làm giảm độ chính xác !!!_
   
 - [ ] Huấn luyện mô hình với dữ liệu laws:
   - [ ] symato_2944 3 lượt:
