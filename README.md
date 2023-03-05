@@ -13,17 +13,27 @@
     - Khả năng nén tương đương sentencepiece_16k (nhỉnh hơn 1 chút) và tập trung nén âm tiết
     - _!!! Lưu ý prompt đầu vào có thể làm tknz bi_grams khác trình tự so với lúc train làm giảm độ chính xác !!!_
   
-- [ ] Huấn luyện mô hình với dữ liệu laws:
-  - [ ] symato_2944 3 lượt:
+- [x] Huấn luyện mô hình với dữ liệu laws:
+  - [x] symato_2944 3 lượt:
     - [x] Lấy mẫu ngẫu nhiên
     - [x] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
-    - [ ] Lặp lại bước trên thay đổi data_shift = 256
-  - [ ] symato_16k 3 lượt:
+
+- [x] symato_16k 3 lượt:
     - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
     - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 170
-    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
-- [ ] Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
+    - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
+- [x] sentencepiece_16k 3 lượt:
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
+
+  - [ ] Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
+    - Dùng symato_16k làm based, turn off fill-in-the-middle mode
+    - [ ] Viết code trộn 2 loại dữ liệu tknz theo 2 cách khác nhau
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
 ## Huấn luyện mô hình 1.2 tỉ tham số trên ~13 tỉ tokens
 - [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
