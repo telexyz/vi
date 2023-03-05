@@ -1,4 +1,4 @@
-# Huấn luyện mô hình ngôn ngữ trên máy trạm DGX 4 GPU A100 160G vram trong 7 ngày (04/03/2023 - 10/03/2023)
+# Huấn luyện mô hình ngôn ngữ trên máy trạm DGX 4 GPU A100 160G vram trong 7 ngày (04-10/03/2023)
 
 ## Chuẩn bị huấn luyện và các thử nghiệm
 - [x] Chuẩn bị 6GB dữ liệu laws để thử nghiệm với mô hình 1.2 tỉ params
