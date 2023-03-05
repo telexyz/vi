@@ -18,10 +18,10 @@
     - [x] Lấy mẫu ngẫu nhiên
     - [x] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
 
-- [x] symato_16k 3 lượt:
-    - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
-    - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 170
-    - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
+  - [x] symato_16k 3 lượt:
+      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
   - [x] sentencepiece_16k 3 lượt:
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
