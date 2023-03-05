@@ -34,7 +34,7 @@
   - Lưu ý set tham số tỉ trọng dữ liệu cho chuẩn xác để lr giảm hợp lý và không mất quá nhiều time vào pre-train
   - [ ] Chuẩn bị dữ liệu tương tác
   - [ ] Fine-tune với dữ liệu tương tác (~5GB?)
-  - [ ] Test perlexity với `truongnews-000-009` trộn với dữ liệu tương tác
+  - Test perlexity với `truongnews-000-009`
 
 ```
 TOTAL:
