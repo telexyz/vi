@@ -32,7 +32,7 @@
   - [ ] `news_030_137_symato_16k_text_document` train sau với cxt768 bs16
     - Vòng cuối huấn luyện với batch_size lớn nhất có thể
   - Lưu ý set tham số tỉ trọng dữ liệu cho chuẩn xác để lr giảm hợp lý và không mất quá nhiều time vào pre-train
-  - [ ] Chuẩn bị dữ liệu tương tác từ vnexpress
+  - [ ] Chuẩn bị dữ liệu tương tác
   - [ ] Fine-tune với dữ liệu tương tác (khoảng 4-6GB)
   - [ ] Test perlexity với `truongnews-000-009` trộn với dữ liệu tương tác
 
