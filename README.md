@@ -1,7 +1,6 @@
 # Chạy trên máy trạm DGX 4 GPU A100 160G vram
 
 ## Chuẩn bị huấn luyện và các thử nghiệm
-
 - [x] Chuẩn bị 6GB dữ liệu laws để thử nghiệm với mô hình 1.2 tỉ params
 
 - [x] Quản lý [lấy mẫu huấn luyện](./sampling/README.md)
@@ -9,8 +8,8 @@
   - [x] Thêm khoảng trượt data_shift để thay đổi cửa sổ lấy mẫu ở lần huấn luyện lặp lại tiếp theo
 
 - [x] Tokenize dữ liệu và lưu dưới định dạng binidx theo kịch bản lấy mẫu
-  - [x] Tknz theo symato_2944 (6g text = ~2 tỉ tokens)
-  - [x] Tknz theo symato_16k  (6g text = ~1 tỉ tokens) 
+  - [x] Tknz theo symato_2944 (~5g filtered text = ~2 tỉ tokens)
+  - [x] Tknz theo symato_16k  (~5g filtered text = ~1 tỉ tokens) 
     - Khả năng nén tương đương sentencepiece_16k (nhỉnh hơn 1 chút) và tập trung nén âm tiết
     - Cần lưu lý prompt đầu vào có thể làm vỡ bi_gram tknz, cần test kỹ trường hợp này !!!
   
@@ -21,12 +20,13 @@
     - [ ] Lặp lại bước trên thay đổi data_shift = 170
   - [ ] symato_16k 3 lượt:
     - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
-    - [-] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+    - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 170
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 - [ ] Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
 
+
 ## Huấn luyện mô hình 1.2 tỉ tham số trên ~12 tỉ tokens
-  - [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
+- [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
   - [ ] Tknz dữ liệu với symato_16k
   - [ ] `shortnews_000_079_symato_16k_text_document` train trước với cxt512 bs24
   - [ ] `news_030_137_symato_16k_text_document` train sau với cxt768 bs16
