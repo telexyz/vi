@@ -44,8 +44,8 @@
   - [ ] `shortnews_000_079_symato_16k_text_document` train trước với cxt512 bs24
   - [ ] `news_030_137_symato_16k_text_document` train sau với cxt768 bs16
   - [x] Chuẩn bị dữ liệu tương tác
-  - [o] Fine-tune với dữ liệu tương tác (~7GB) nếu còn thời gian (optional)
-  - [o] Test perlexity với `truongnews-000-009` (làm sau)
+  - [+] Fine-tune với dữ liệu tương tác (~7GB) nếu còn thời gian (optional)
+  - [+] Test perlexity với `truongnews-000-009` (làm sau)
 
 ```
 TOTAL:
