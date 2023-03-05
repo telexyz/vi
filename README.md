@@ -23,10 +23,10 @@
     - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 170
     - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
-- [x] sentencepiece_16k 3 lượt:
-    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
-    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
-    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
+  - [x] sentencepiece_16k 3 lượt:
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
   - [ ] Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
     - Dùng symato_16k làm based, turn off fill-in-the-middle mode
