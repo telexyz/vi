@@ -17,7 +17,7 @@
   - [ ] symato_2944 3 lượt:
     - [x] Lấy mẫu ngẫu nhiên
     - [x] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
-    - [ ] Lặp lại bước trên thay đổi data_shift = 170
+    - [ ] Lặp lại bước trên thay đổi data_shift = 256
   - [ ] symato_16k 3 lượt:
     - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
     - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 170
