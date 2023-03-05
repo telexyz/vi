@@ -25,15 +25,37 @@
 - [ ] Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
 
 
-## Huấn luyện mô hình 1.2 tỉ tham số trên ~12 tỉ tokens
+## Huấn luyện mô hình 1.2 tỉ tham số trên ~13 tỉ tokens
 - [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
   - [x] Tknz dữ liệu với symato_16k
   - [ ] `shortnews_000_079_symato_16k_text_document` train trước với cxt512 bs24
   - [ ] `news_030_137_symato_16k_text_document` train sau với cxt768 bs16
+  - [ ] `news_010_029_laws_symato_16k_text_document` train sau với cxt1024 và bs lớn nhất có thể
   - Lưu ý set tham số tỉ trọng dữ liệu cho chuẩn xác để lr giảm hợp lý và không mất quá nhiều time vào pre-train
   - [ ] Chuẩn bị dữ liệu tương tác
   - [ ] Fine-tune với dữ liệu tương tác (~5GB?)
   - [ ] Test perlexity với `truongnews-000-009` trộn với dữ liệu tương tác
+
+```
+TOTAL:
+>>> documents 12734754
+>>> tokens 13371714096
+
+    news_010_029_laws_symato_16k_text_document
+>>> documents 694327
+>>> tokens 2117570773
+>>> portion 0.1583619
+
+    news_030_137_symato_16k_text_document
+>>> documents 2867110
+>>> tokens 5282778588
+>>> portion 0.3950711
+
+    shortnews_000_079_symato_16k_text_document
+>>> documents 9173317
+>>> tokens 5971364735
+>>> portion 0.4465668
+```
 
 - - -
 
