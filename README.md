@@ -40,13 +40,12 @@
 ## Huấn luyện mô hình 2.5 tỉ tham số trên ~13 tỉ tokens
 - [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
   - [x] Tknz dữ liệu với symato_16k
+  - [x] Kịch bản huấn luyện mỗi token 2 rounds
   - [ ] `shortnews_000_079_symato_16k_text_document` train trước với cxt512 bs24
   - [ ] `news_030_137_symato_16k_text_document` train sau với cxt768 bs16
-  - [ ] `news_010_029_laws_symato_16k_text_document` train sau với cxt1024 và bs lớn nhất có thể
-  - Lưu ý set tham số tỉ trọng dữ liệu cho chuẩn xác để lr giảm hợp lý và không mất quá nhiều time vào pre-train
-  - [ ] Chuẩn bị dữ liệu tương tác
-  - [ ] Fine-tune với dữ liệu tương tác (~5GB?)
-  - Test perlexity với `truongnews-000-009`
+  - [x] Chuẩn bị dữ liệu tương tác
+  - [ - ] Fine-tune với dữ liệu tương tác (~7GB) nếu còn thời gian (optional)
+  - [ - ] Test perlexity với `truongnews-000-009` (làm sau)
 
 ```
 TOTAL:
