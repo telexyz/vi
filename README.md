@@ -26,7 +26,7 @@
 `>> I'M HERE <<`
 
   - [ ] sentencepiece_16k 3 lượt:
-      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
