@@ -33,7 +33,7 @@
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
 
 - [ ] Model-4: symato_16k_refined (đã lọc bi-grams) 3 lượt:
-    - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
 
