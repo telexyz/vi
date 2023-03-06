@@ -33,7 +33,7 @@
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
 
   - [ ] Model-4: Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới!
-    - Dùng symato_16k làm init
+    - [x] Dùng symato_16k làm init
     - [ ] Viết code trộn 2 loại dữ liệu tknz theo 2 cách khác nhau
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
