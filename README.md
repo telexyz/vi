@@ -45,7 +45,8 @@
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
 ## Huấn luyện mô hình 2.5 tỉ tham số trên ~13 tỉ tokens
-> Đây là mô hình lớn nhất mà phần cứng có thể chạy được, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số. Dự kiến một lượt huấn luyện mất 4 ngày (2 lượt x 48h một lượt) => Nếu không đủ thời gian cần giảm tham số mô hình xuống 1.2 tỉ.
+> Đây là mô hình lớn nhất mà phần cứng có thể chạy được, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số. Dự kiến một lượt huấn luyện mất 4 ngày (2 lượt x 48h một lượt)
+
 - [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
 - [ ] Tknz dữ liệu với symato_16k
 - [x] Kịch bản huấn luyện mỗi token 2 lượt
