@@ -1,7 +1,7 @@
 # Huấn luyện mô hình ngôn ngữ trên máy trạm DGX 4 GPU A100 160G vram
 
 ## Chuẩn bị huấn luyện và các thử nghiệm
-> Mỗi mô hình huấn luyện mất 12h (3 lượt x 4h mỗi lượt). Model-4 mất 24h (do x2 data)
+> Mỗi mô hình huấn luyện mất 12h (3 lượt x 4h mỗi lượt). Model-5 mất 24h (do x2 data)
 
 - [x] Chuẩn bị 6GB dữ liệu laws để thử nghiệm với mô hình 1.2 tỉ params
 
@@ -20,10 +20,10 @@
     - [x] Lấy mẫu ngẫu nhiên
     - [x] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
 
-  - [ ] Model-2: symato_16k 3 lượt:
-      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
-      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
-      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
+  - [x] Model-2: symato_16k 3 lượt:
+      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
 `>> I'M HERE <<`
 
@@ -32,8 +32,13 @@
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
 
-  - [ ] Model-4: Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới!
-    - [x] Dùng symato_16k làm init
+- [ ] Model-4: symato_16k_refined (đã lọc bi-grams) 3 lượt:
+    - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+
+  - [ ] Model-5: Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới!
+    - [ ] Dùng Model-4 làm khởi tạo tham số
     - [ ] Viết code trộn 2 loại dữ liệu tknz theo 2 cách khác nhau
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
