@@ -1,6 +1,8 @@
-# Huấn luyện mô hình ngôn ngữ trên máy trạm DGX 4 GPU A100 160G vram trong 7 ngày (04-10/03/2023)
+# Huấn luyện mô hình ngôn ngữ trên máy trạm DGX 4 GPU A100 160G vram
 
 ## Chuẩn bị huấn luyện và các thử nghiệm
+> Mỗi mô hình huấn luyện mất 12h (3 lượt x 4h mỗi lượt). Model-4 mất 24h (do x2 data)
+
 - [x] Chuẩn bị 6GB dữ liệu laws để thử nghiệm với mô hình 1.2 tỉ params
 
 - [x] Quản lý [lấy mẫu huấn luyện](./sampling/README.md)
@@ -13,35 +15,35 @@
     - Khả năng nén tương đương sentencepiece_16k (nhỉnh hơn 1 chút) và tập trung nén âm tiết
     - _!!! Lưu ý prompt đầu vào có thể làm tknz bi_grams khác trình tự so với lúc train làm giảm độ chính xác !!!_
   
-- [x] Huấn luyện mô hình với dữ liệu laws:
-  - [x] symato_2944 3 lượt:
+- [x] Huấn luyện các mô hình sau với dữ liệu laws:
+  - [x] Model-1: symato_2944 3 lượt:
     - [x] Lấy mẫu ngẫu nhiên
     - [x] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
 
-  - [x] symato_16k 3 lượt:
+  - [x] Model-2: symato_16k 3 lượt:
       - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
       - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 170
       - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
 `>> I'M HERE <<`
 
-  - [ ] sentencepiece_16k 3 lượt:
+  - [ ] Model-3: sentencepiece_16k 3 lượt:
       - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
-  - [ ] Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới hoàn toàn!
-    - Dùng symato_16k làm based, turn off fill-in-the-middle mode
+  - [ ] Model-4: Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới!
+    - Dùng symato_16k làm init
     - [ ] Viết code trộn 2 loại dữ liệu tknz theo 2 cách khác nhau
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
 ## Huấn luyện mô hình 2.5 tỉ tham số trên ~13 tỉ tokens
-> Đây là mô hình lớn nhất mà phần cứng có thể chạy được, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số
+> Đây là mô hình lớn nhất mà phần cứng có thể chạy được, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số. Dự kiến một lượt huấn luyện mất 4 ngày (2 lượt x 48h một lượt) => Nếu không đủ thời gian cần giảm tham số mô hình xuống 1.2 tỉ.
 - [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
   - [x] Tknz dữ liệu với symato_16k
-  - [x] Kịch bản huấn luyện mỗi token 2 rounds
+  - [x] Kịch bản huấn luyện mỗi token 2 lượt
   - [ ] `shortnews_000_079_symato_16k_text_document` train trước với cxt512 bs24
   - [ ] `news_030_137_symato_16k_text_document` train sau với cxt768 bs16
   - Test perlexity với `truongnews-000-009` (làm sau)
