@@ -20,17 +20,17 @@
     - [x] Lấy mẫu ngẫu nhiên
     - [x] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
 
-  - [x] Model-2: symato_16k 3 lượt:
-      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
-      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 170
-      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
+  - [ ] Model-2: symato_16k 3 lượt:
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
 `>> I'M HERE <<`
 
   - [ ] Model-3: sentencepiece_16k 3 lượt:
-      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+      - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
-      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
 
   - [ ] Model-4: Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới!
     - Dùng symato_16k làm init
@@ -42,13 +42,13 @@
 ## Huấn luyện mô hình 2.5 tỉ tham số trên ~13 tỉ tokens
 > Đây là mô hình lớn nhất mà phần cứng có thể chạy được, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số. Dự kiến một lượt huấn luyện mất 4 ngày (2 lượt x 48h một lượt) => Nếu không đủ thời gian cần giảm tham số mô hình xuống 1.2 tỉ.
 - [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
-  - [x] Tknz dữ liệu với symato_16k
-  - [x] Kịch bản huấn luyện mỗi token 2 lượt
-  - [ ] `shortnews_000_079_symato_16k_text_document` train trước với cxt512 bs24
-  - [ ] `news_030_137_symato_16k_text_document` train sau với cxt768 bs16
-  - Test perlexity với `truongnews-000-009` (làm sau)
-  - [ ] Chọn một domain như bóng đá để finetune, làm app chuyên viết bài bóng đá
-    - Cần crawl dữ liệu domain
+- [ ] Tknz dữ liệu với symato_16k
+- [x] Kịch bản huấn luyện mỗi token 2 lượt
+- [ ] `shortnews_000_079_symato_16k_text_document` train trước với cxt512 bs24
+- [ ] `news_030_137_symato_16k_text_document` train sau với cxt768 bs16
+- Test perlexity với `truongnews-000-009` (làm sau)
+- [ ] Chọn một domain như bóng đá để finetune, làm app chuyên viết bài bóng đá
+  - Cần crawl dữ liệu domain
 
 ```
 TOTAL:
