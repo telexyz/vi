@@ -1,4 +1,4 @@
-## Cách lấy mẫu để huấn luyện mô hình ngôn ngữ khoảng 1.5 tỉ tham số, số tokens khoảng 15 tỉ.
+## Cách lấy mẫu hiệu quả để huấn luyện mô hình ngôn ngữ
 
 - Lấy mẫu hiệu quả để cover được nhiều dữ liệu trong cùng một epoch
   - Có sự trùng lặp giữa các mẫu hay hay không?
@@ -16,6 +16,6 @@ TODOs
   - Trải các mẫu trên một pipeline, cách nhau bởi `<sep>` token
   - Chạy một lượt từ đầu tới cuối cửa sổ dịch chuyển là ctx_len (1-epoch: mỗi token chỉ train 1 lần)
 
-- [ ] Tìm hiểu cách lấy mẫu của [gpt-neox](https://github.com/EleutherAI/gpt-neox)
+- [-] Tìm hiểu cách lấy mẫu của [gpt-neox](https://github.com/EleutherAI/gpt-neox)
 
-- [ ] Tìm hiểu cách lấy mẫu của [rwkv_the_pile](https://github.com/BlinkDL/RWKV-LM/blob/main/RWKV-v4neo/src/dataset.py)
+- [-] Tìm hiểu cách lấy mẫu của [rwkv_the_pile](https://github.com/BlinkDL/RWKV-LM/blob/main/RWKV-v4neo/src/dataset.py)
