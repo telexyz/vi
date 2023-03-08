@@ -1,4 +1,4 @@
-# Huấn luyện mô hình ngôn ngữ trên DGX 4 GPU A100 160G vram
+# Huấn luyện mô hình ngôn ngữ trên 4 GPUs A100 160G vram
 
 ## Chuẩn bị huấn luyện và các thử nghiệm
 > Mỗi mô hình huấn luyện mất 12h (3 lượt x 4h mỗi lượt). Model-5 mất 24h (do x2 data)
@@ -11,10 +11,12 @@
 
 - [x] Tokenize dữ liệu và lưu dưới định dạng binidx theo kịch bản lấy mẫu
   - [x] Tknz theo symato_2944 (~5g filtered text = ~2 tỉ tokens)
+  - [x] Tknz theo symato_16k (~5g filtered text = ~1.1 tỉ tokens) 
+    - Tỉ lệ nén bằng 91% sentencepiece_16k trên toàn bộ tập dữ liệu và tập trung nén âm tiết
   - [x] Tknz theo symato_16k_refined (~5g filtered text = ~1.2 tỉ tokens) 
-    - Khả năng nén bằng 2/3 sentencepiece_16k trên toàn bộ tập dữ liệu
-    - So sánh khả năng nén trên dữ liệu thuần âm tiết tiếng Việt
-    - __Kết hợp BPE vào symato để cân bằng giữa dữ liệu âm tiết và phi âm tiết__
+    - Tỉ lệ nén bằng 86% sentencepiece_16k trên toàn bộ tập dữ liệu và tập trung nén âm tiết
+    - => So sánh khả năng nén trên dữ liệu thuần âm tiết tiếng Việt để thấy kết quả vượt trội của symato
+    - => So sánh khả năng nén trên dữ liệu phi âm tiết để xem nên tích hợp BPE vào symato tới mức độ nào để cân bằng giữa hai loại dữ liệu thuần âm tiết và phi âm tiết.
   
 - [ ] Huấn luyện các mô hình sau với dữ liệu laws:
   - [x] Model-1: symato_2944 3 lượt:
