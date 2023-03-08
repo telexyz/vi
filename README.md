@@ -32,7 +32,7 @@
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
 
-- [ ] Model-4: symato_16k_refined (đã lọc bi-grams) 3 lượt:
+- [ ] Model-4: symato_16k_refined 3 lượt:
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
@@ -45,10 +45,10 @@
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
 ## Huấn luyện mô hình 2.5 tỉ tham số trên ~13 tỉ tokens
-> Đây là mô hình lớn nhất mà phần cứng có thể chạy được, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số. Dự kiến một lượt huấn luyện mất 4 ngày (2 lượt x 48h một lượt)
+> Đây là mô hình lớn nhất mà phần cứng có thể chạy được, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số. Dự kiến huấn luyện mất 4 ngày (2 lượt x 48h một lượt)
 
 - [x] Chuẩn bị dữ liệu huấn luyện với news, lọc theo chất lượng tokens và độ dài ngắn của văn bản
-- [ ] Tknz dữ liệu với symato_16k
+- [ ] Tknz dữ liệu với symato_16k_refined
 - [x] Kịch bản huấn luyện mỗi token 2 lượt
 - [ ] `shortnews_000_079_symato_16k_text_document` train trước với cxt512 bs24
 - [ ] `news_030_137_symato_16k_text_document` train sau với cxt768 bs16
