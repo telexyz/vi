@@ -1,4 +1,4 @@
-# Huấn luyện mô hình ngôn ngữ trên 4 GPUs A100 160G vram
+# Huấn luyện mô hình ngôn ngữ trên 4 GPUs A100 160G
 
 ## Chuẩn bị huấn luyện và các thử nghiệm
 > Mỗi mô hình huấn luyện mất 12h (3 lượt x 4h mỗi lượt). Model-5 mất 24h (do x2 data)
