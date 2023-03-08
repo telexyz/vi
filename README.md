@@ -17,6 +17,7 @@
     - Tỉ lệ nén bằng 86% sentencepiece_16k trên toàn bộ tập dữ liệu và tập trung nén âm tiết
     - => So sánh khả năng nén trên dữ liệu thuần âm tiết tiếng Việt để thấy kết quả vượt trội của symato
     - => So sánh khả năng nén trên dữ liệu phi âm tiết để xem nên tích hợp BPE vào symato tới mức độ nào để cân bằng giữa hai loại dữ liệu thuần âm tiết và phi âm tiết.
+    - => So sánh với Phở-Bert tknz trên một tập dữ liệu ngoài laws, lưu ý Phở-Bert cần tách từ trước khi đưa vào tknz, Symato không cần và chịu thiệt thòi do chỉ được huấn luyện trên laws.
   
 - [ ] Huấn luyện các mô hình sau với dữ liệu laws:
   - [x] Model-1: symato_2944 3 lượt:
