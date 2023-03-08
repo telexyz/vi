@@ -16,7 +16,7 @@
     - So sánh khả năng nén trên dữ liệu thuần âm tiết tiếng Việt
     - __Kết hợp BPE vào symato để cân bằng giữa dữ liệu âm tiết và phi âm tiết__
   
-- [x] Huấn luyện các mô hình sau với dữ liệu laws:
+- [ ] Huấn luyện các mô hình sau với dữ liệu laws:
   - [x] Model-1: symato_2944 3 lượt:
     - [x] Lấy mẫu ngẫu nhiên
     - [x] Cách lấy mẫu mới đảm bảo mỗi token được huấn luyện 1 lần
@@ -33,13 +33,12 @@
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
 
-- [ ] Model-4: symato_16k_refined 3 lượt:
-    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
-    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
-    - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+  - [ ] Model-4: symato_16k_refined 3 lượt:
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
 
   - [ ] Model-5: Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới!
-    - [ ] Dùng Model-4 làm khởi tạo tham số
     - [ ] Viết code trộn 2 loại dữ liệu tknz theo 2 cách khác nhau
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
