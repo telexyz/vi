@@ -12,7 +12,9 @@
 - [x] Tokenize dữ liệu và lưu dưới định dạng binidx theo kịch bản lấy mẫu
   - [x] Tknz theo symato_2944 (~5g filtered text = ~2 tỉ tokens)
   - [x] Tknz theo symato_16k_refined (~5g filtered text = ~1.2 tỉ tokens) 
-    - Khả năng nén bằng 2/3 sentencepiece_16k
+    - Khả năng nén bằng 2/3 sentencepiece_16k trên toàn bộ tập dữ liệu
+    - Cần so sánh khả năng nén trên dữ liệu thuần âm tiết tiếng Việt
+    - Tiến tới kết hợp BPE vào symato để cân bằng giữa dữ liệu âm tiết và phi âm tiết
   
 - [x] Huấn luyện các mô hình sau với dữ liệu laws:
   - [x] Model-1: symato_2944 3 lượt:
