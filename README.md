@@ -29,17 +29,17 @@
       - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 170
       - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
-`>> I'M HERE <<`
-
   - [ ] Model-3: sentencepiece_16k 3 lượt:
       - [x] Mỗi mẫu huấn luyện 1 lần data_shift = 340
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
 
+`>> I'M HERE <<`
+
   - [ ] Model-4: symato_16k_refined 3 lượt:
-      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
-      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
       - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 0
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
+      - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
   - [ ] Model-5: Huấn luyện một mô hình kết hợp cả 2 cách tknz => Thử nghiệm mới!
     - [ ] Viết code trộn 2 loại dữ liệu tknz theo 2 cách khác nhau
