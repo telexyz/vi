@@ -1,4 +1,4 @@
-# Huấn luyện mô hình ngôn ngữ trên 4 GPUs A100 160G
+# Huấn luyện mô hình ngôn ngữ trên 4 GPUs A100 160G (DONE)
 > Tài trợ bởi Nvidia Việt Nam
 ## Chuẩn bị huấn luyện và các thử nghiệm
 > Mỗi mô hình huấn luyện mất 12h (3 lượt x 4h mỗi lượt). Model-5 mất 24h (do x2 data)
@@ -47,7 +47,7 @@
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
-# Huấn luyện mô hình 2.5 tỉ tham số trên ~20 tỉ tokens
+# Huấn luyện mô hình 2.5 tỉ tham số trên ~20 tỉ tokens (PREPARING)
 > Đây là mô hình đủ lớn mà phần cứng có thể chạy hiệu quả, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số. Dự kiến huấn luyện mất ít nhất 4 ngày.
 
 - [ ] Tích hợp BPE vào symato_16k_refined
@@ -78,7 +78,7 @@ TOTAL:
 
 - - -
 
-## Cần tìm thêm
+## Cần tìm thêm (TODOs)
 - [ ] Văn bản chính quy
   - Đã có 6G văn bản luật từ Thịnh
 
@@ -92,7 +92,7 @@ TOTAL:
 - [ ] Sách
   - Chưa có nguồn
 
-## Cần làm thêm
+## Cần làm thêm (TODOs)
 - [ ] dedup truongnews và oscar_vi
 - [ ] chuẩn bị nội dung tương tác (khoảng 10G text)
 
@@ -109,61 +109,11 @@ TOTAL:
   - Cân bằng về số lượng tokens giữa các categories?
 
 
-## Cần có hệ thống quản lý dữ liệu văn bản
-
-- Crawl dữ liệu nên đi theo từng website và có bộ parser riêng cho web đó để lọc nội dung chuẩn ngay từ đầu, tránh bị lẫn sạn. Có APIs để cung cấp json/xml cho apps càng tốt.
-
-- Crawl dữ liệu như bot của search engine, quản lý văn bản như quản lý search engine quản lý cơ sở dữ liệu
-
-- Các bài toán quản trị meta data của văn bản:
-  - Đánh số thứ tự (id)
-  - Độ dài văn bản (theo chars, tokens, paragraphs ...)
-  - Full text search indexing
-  - n-gram indexing (2,3-gram)
-  - MinHash (để dedup)
-  - Lưu nguồn văn bản (url)
-  - Lĩnh vực (domains) và phân loại (categories)
-  - Thời gian cập nhật
-
-- Các truy vấn trên CSDL văn bản:
-  - Tìm cho tôi 1000 văn bản có độ dài ngắn nhất
-  - Tìm cho tôi các văn bản có chủ đề "văn hóa"
-  - Thống kê số lượng văn bản theo từng chủ đề
-
-- - -
-
-## Công cụ mạnh để xử lý ngữ liệu lớn
-- https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
-- https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
-- https://github.com/facebookresearch/fastText word embedding & text classifier
-
-RESEARCH
-
-- [ ] Chọn dữ liệu tương đồng với 1 tập dữ liệu đã có
-  - [ ] Dùng [dsir](https://github.com/p-lambda/dsir) để lọc news có liên quan tới pháp luật
-
-- [ ] Loại bỏ dữ liệu kém
-  - [x] lọc theo tỉ lệ âm tiết và độ dài văn bản
-  - [x] Các thuật toán dedup
-    - [x] minhash
-    - [x] SuffixArray Substring
-    - [ ] Áp dụng minhash, suffix-array vào âm tiết TV (sau khi đã đánh số = u16)
-  - Tham khảo
-    - https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
-    - https://github.com/CarperAI/squeakily
-    - Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
-
-- [ ] Cân bằng giữa các loại dữ liệu
-  - [ ] Xem https://stanford-cs324.github.io/winter2022/lectures/data
-  - [ ] Xem [unimax](./docs/unimax.md)
-
-- [x] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
-  - [x] Cramming paper
-
-
 - - -
 
 DONE
+
+Dữ liệu đã xử lý tập trung tại https://huggingface.co/datasets/tiendung/vi500
 
 - [x] Lọc [OSCAR vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc)
   - Mỗi doc là 1 string của trường `content` trong file `.jsonl`
@@ -194,3 +144,57 @@ DONE
   - https://huggingface.co/datasets/tiendung/vi500/blob/main/roots-wikipedia-vi.utf8.7z
 
 - [x] Tin tức https://huggingface.co/datasets/truongpdd/vietnews-dataset (~70GB đã dedup)
+
+
+- - -
+
+>>> KHÁC <<<
+
+## Công cụ mạnh để xử lý ngữ liệu lớn
+- https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
+- https://github.com/kpu/kenlm n-gram language model nhanh nhất, python binding
+- https://github.com/facebookresearch/fastText word embedding & text classifier
+
+RESEARCH
+
+- [ ] Chọn dữ liệu tương đồng với 1 tập dữ liệu đã có
+  - [ ] Dùng [dsir](https://github.com/p-lambda/dsir) để lọc news có liên quan tới pháp luật
+
+- [ ] Loại bỏ dữ liệu kém
+  - [x] lọc theo tỉ lệ âm tiết và độ dài văn bản
+  - [x] Các thuật toán dedup
+    - [x] minhash
+    - [x] SuffixArray Substring
+    - [ ] Áp dụng minhash, suffix-array vào âm tiết TV (sau khi đã đánh số = u16)
+  - Tham khảo
+    - https://github.com/CarperAI/pilev2/tree/main/pile/processing/dedup
+    - https://github.com/CarperAI/squeakily
+    - Check [quality of dataset using kenlm](https://github.com/huggingface/olm-datasets/blob/main/pipeline_scripts/common_crawl/apply_bigscience_filters.py)
+
+- [ ] Cân bằng giữa các loại dữ liệu
+  - [ ] Xem https://stanford-cs324.github.io/winter2022/lectures/data
+  - [ ] Xem [unimax](./docs/unimax.md)
+
+- [x] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
+  - [x] Cramming paper
+
+## Cần có hệ thống quản lý dữ liệu văn bản
+
+- Crawl dữ liệu nên đi theo từng website và có bộ parser riêng cho web đó để lọc nội dung chuẩn ngay từ đầu, tránh bị lẫn sạn. Có APIs để cung cấp json/xml cho apps càng tốt.
+
+- Crawl dữ liệu như bot của search engine, quản lý văn bản như quản lý search engine quản lý cơ sở dữ liệu
+
+- Các bài toán quản trị meta data của văn bản:
+  - Đánh số thứ tự (id)
+  - Độ dài văn bản (theo chars, tokens, paragraphs ...)
+  - Full text search indexing
+  - n-gram indexing (2,3-gram)
+  - MinHash (để dedup)
+  - Lưu nguồn văn bản (url)
+  - Lĩnh vực (domains) và phân loại (categories)
+  - Thời gian cập nhật
+
+- Các truy vấn trên CSDL văn bản:
+  - Tìm cho tôi 1000 văn bản có độ dài ngắn nhất
+  - Tìm cho tôi các văn bản có chủ đề "văn hóa"
+  - Thống kê số lượng văn bản theo từng chủ đề
