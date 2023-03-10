@@ -47,10 +47,10 @@
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
-## Chạy các bài test và viết final report (TODO)
+## Chạy các bài test và viết final report
 ...
 
-# Huấn luyện mô hình 2.5 tỉ tham số trên ~20 tỉ tokens (TODO)
+# Huấn luyện mô hình 2.5 tỉ tham số trên ~20 tỉ tokens
 > Đây là mô hình đủ lớn mà phần cứng có thể chạy hiệu quả, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số. Dự kiến huấn luyện mất ít nhất 4 ngày.
 
 - [ ] Tích hợp BPE vào symato_16k_refined
@@ -81,7 +81,7 @@ TOTAL:
 
 - - -
 
-## Cần tìm thêm (TODO)
+## Cần tìm thêm
 - [ ] Văn bản chính quy
   - Đã có 6G văn bản luật từ Thịnh
 
@@ -95,7 +95,7 @@ TOTAL:
 - [ ] Sách
   - Chưa có nguồn
 
-## Cần làm thêm (TODO)
+## Cần làm thêm
 - [ ] dedup truongnews và oscar_vi
 - [ ] chuẩn bị nội dung tương tác (khoảng 10G text)
 
@@ -150,8 +150,6 @@ Dữ liệu đã xử lý tập trung tại https://huggingface.co/datasets/tien
 
 
 - - -
-
->>> KHÁC <<<
 
 ## Công cụ mạnh để xử lý ngữ liệu lớn
 - https://github.com/telexyz/engine phân tách âm tiết tiếng Việt và thống kê dữ liệu
