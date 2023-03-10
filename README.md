@@ -1,5 +1,5 @@
 # Thử nghiệm trên 4 GPUs A100 160G
-> Tài trợ bởi Nvidia Việt Nam
+> Phần cứng tài trợ bởi Nvidia Việt Nam
 ## Chuẩn bị huấn luyện và các thử nghiệm (DONE)
 > Mỗi mô hình huấn luyện mất 12h (3 lượt x 4h mỗi lượt). Model-5 mất 24h (do x2 data)
 
