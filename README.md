@@ -1,6 +1,6 @@
-# Thử nghiệm trên 4 GPUs A100 160G (DONE)
+# Thử nghiệm trên 4 GPUs A100 160G
 > Tài trợ bởi Nvidia Việt Nam
-## Chuẩn bị huấn luyện và các thử nghiệm
+## Chuẩn bị huấn luyện và các thử nghiệm (DONE)
 > Mỗi mô hình huấn luyện mất 12h (3 lượt x 4h mỗi lượt). Model-5 mất 24h (do x2 data)
 
 - [x] Chuẩn bị 6GB dữ liệu laws để thử nghiệm với mô hình 1.2 tỉ params
@@ -47,7 +47,10 @@
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
-# Huấn luyện mô hình 2.5 tỉ tham số trên ~20 tỉ tokens (PREPARING)
+## Chạy các bài test và viết final report (TODO)
+...
+
+# Huấn luyện mô hình 2.5 tỉ tham số trên ~20 tỉ tokens (TODO)
 > Đây là mô hình đủ lớn mà phần cứng có thể chạy hiệu quả, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số. Dự kiến huấn luyện mất ít nhất 4 ngày.
 
 - [ ] Tích hợp BPE vào symato_16k_refined
@@ -78,7 +81,7 @@ TOTAL:
 
 - - -
 
-## Cần tìm thêm (TODOs)
+## Cần tìm thêm (TODO)
 - [ ] Văn bản chính quy
   - Đã có 6G văn bản luật từ Thịnh
 
@@ -92,7 +95,7 @@ TOTAL:
 - [ ] Sách
   - Chưa có nguồn
 
-## Cần làm thêm (TODOs)
+## Cần làm thêm (TODO)
 - [ ] dedup truongnews và oscar_vi
 - [ ] chuẩn bị nội dung tương tác (khoảng 10G text)
 
