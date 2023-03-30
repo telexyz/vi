@@ -61,10 +61,9 @@
   - ...
 
 - [ ] Sách
-  - Chưa có nguồn
+  - https://www.kaggle.com/datasets/iambestfeeder/10000-vietnamese-books
 
 - [ ] Truyện, văn, thơ ...
-  - https://www.kaggle.com/datasets/iambestfeeder/10000-vietnamese-books
   - https://huggingface.co/datasets/truongpdd/vietnamese_poetry
 ## Cần làm thêm
 - [ ] dedup truongnews và oscar_vi
