@@ -47,37 +47,7 @@
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
-## Chạy các bài test và viết final report
-...
-
-# Huấn luyện mô hình 2.5 tỉ tham số trên ~20 tỉ tokens
-> Đây là mô hình đủ lớn mà phần cứng có thể chạy hiệu quả, tốc độ huấn luyện sẽ chậm đi 1/3 so với mô hình 1.2 tỉ tham số. Dự kiến huấn luyện mất ít nhất 4 ngày.
-
-- [ ] Tích hợp BPE vào symato_16k_refined
-- [ ] Tăng cường dữ liệu từ 12 tỉ lên 20 tỉ tokens (dùng hết truongnews và oscar_vi, thêm 2b tokens tương tác)
-- [ ] Kịch bản huấn luyện mỗi token 1 lượt
-
-Ước tính lượng tokens với dữ liệu news đã có
-```
-TOTAL:
->>> documents 12734754
->>> tokens 13371714096
-
-    news_010_029_laws_symato_16k_text_document
->>> documents 694327
->>> tokens 2117570773
->>> portion 0.1583619
-
-    news_030_137_symato_16k_text_document
->>> documents 2867110
->>> tokens 5282778588
->>> portion 0.3950711
-
-    shortnews_000_079_symato_16k_text_document
->>> documents 9173317
->>> tokens 5971364735
->>> portion 0.4465668
-```
+## Chạy các bài test và viết final report (DONE)
 
 - - -
 
@@ -95,10 +65,11 @@ TOTAL:
 - [ ] Sách
   - Chưa có nguồn
 
+- [ ] Truyện, văn, thơ ...
+  - https://www.kaggle.com/datasets/iambestfeeder/10000-vietnamese-books
+  - https://huggingface.co/datasets/truongpdd/vietnamese_poetry
 ## Cần làm thêm
 - [ ] dedup truongnews và oscar_vi
-- [ ] chuẩn bị nội dung tương tác (khoảng 10G text)
-
 
 - - -
 
