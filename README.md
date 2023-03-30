@@ -125,7 +125,7 @@ Dữ liệu đã xử lý tập trung tại https://huggingface.co/datasets/tien
 - https://github.com/facebookresearch/fastText word embedding & text classifier
 
 RESEARCH
-
+- [ ] [SemDeDup](https://arxiv.org/abs/2303.09540): Data-efficient learning at web-scale through semantic deduplication
 - [ ] Chọn dữ liệu tương đồng với 1 tập dữ liệu đã có
   - [ ] Dùng [dsir](https://github.com/p-lambda/dsir) để lọc news có liên quan tới pháp luật
 
@@ -147,7 +147,7 @@ RESEARCH
 - [x] Chọn dữ liệu tốt để huấn luyện trước (cách lấy mẫu khôn ngoan)
   - [x] Cramming paper
 
-## Cần có hệ thống quản lý dữ liệu văn bản
+## Vấn đề phát sinh: cần có hệ thống quản lý dữ liệu văn bản
 
 - Crawl dữ liệu nên đi theo từng website và có bộ parser riêng cho web đó để lọc nội dung chuẩn ngay từ đầu, tránh bị lẫn sạn. Có APIs để cung cấp json/xml cho apps càng tốt.
 
