@@ -47,8 +47,6 @@
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 170
     - [ ] Mỗi mẫu huấn luyện 1 lần data_shift = 340
 
-## Chạy các bài test và viết final report (DONE)
-
 - - -
 
 ## Cần tìm thêm
