@@ -84,8 +84,6 @@
 
 DONE
 
-Dữ liệu đã xử lý tập trung tại https://huggingface.co/datasets/tiendung/vi500
-
 - [x] Lọc [OSCAR vi](https://huggingface.co/datasets/oscar-corpus/OSCAR-2201/tree/main/compressed/vi_meta) (99GB, lọc từ cc)
   - Mỗi doc là 1 string của trường `content` trong file `.jsonl`
   - Vẫn còn nhiễu `... 10PHUT Combo 2 của sách 10PHUT Combo 3 của sách 10PHUTCombo của sách 1200 Combo 2 của sách 1200 Combo 3 ..`, cần train classifier ở để lọc quảng cáo hoặc lọc cảm tính theo tỉ lệ uniq syllables / độ dài doc
